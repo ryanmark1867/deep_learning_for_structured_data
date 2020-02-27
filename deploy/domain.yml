@@ -1,0 +1,121 @@
+intents:
+  - greet
+  - goodbye
+  - predict_delay
+  - predict_delay_complete
+
+entities:
+- Route
+- Direction
+- hour
+- day
+- delta
+- scale
+
+slots:
+  Route:
+    type: categorical
+    values:
+    - 501
+    - 502
+    - 503
+    - 504
+    - 505
+    - 506
+    - 508
+    - 509
+    - 510
+    - 511
+    - 512
+    - 301
+    - 304
+    - 306
+    - 310
+  Direction:
+    type: categorical
+    initial_value: e
+    values:
+    - n
+    - e
+    - s
+    - w
+    - b
+  hour:
+    type: categorical
+    values:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+  month:
+    type: categorical
+    values:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+  year:
+    type: categorical
+    initial_value: 2019
+    values:
+    - 2014
+    - 2015
+    - 2016
+    - 2017
+    - 2018
+    - 2019
+    - 2020
+    - 2021
+    - 2022
+    - 2023
+  day:
+    type: text
+  daym:
+    type: text
+  delta:
+    type: text
+    initial_value: 0
+  scale:
+    type: text
+
+
+actions:
+- utter_greet
+- utter_goodbye
+- action_predict_delay
+- action_predict_delay_complete
+
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_goodbye:
+  - text: "Bye"

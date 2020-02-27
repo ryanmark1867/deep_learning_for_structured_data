@@ -1,0 +1,2888 @@
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 22:22:00 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([4]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([2])]
+2019-12-28 22:22:00 WARNING  root  - pred is [[0.37203997]]
+127.0.0.1 - - [2019-12-28 22:22:00] "POST /webhook HTTP/1.1" 200 219 0.106740
+2019-12-28 22:22:15 WARNING  root  - in action_predict_delay_complete
+2019-12-28 22:22:15 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 22:22:15 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 22:22:15 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   501         e   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 22:22:16 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([4]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([1])]
+2019-12-28 22:22:16 WARNING  root  - pred is [[0.73533237]]
+127.0.0.1 - - [2019-12-28 22:22:16] "POST /webhook HTTP/1.1" 200 221 0.203442
+2019-12-28 22:22:35 WARNING  root  - in action_predict_delay_complete
+2019-12-28 22:22:35 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 22:22:35 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 22:22:35 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   501         e   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 22:22:35 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([4]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([1])]
+2019-12-28 22:22:35 WARNING  root  - pred is [[0.73533237]]
+127.0.0.1 - - [2019-12-28 22:22:36] "POST /webhook HTTP/1.1" 200 221 0.193435
+2019-12-28 22:22:50 WARNING  root  - in action_predict_delay_complete
+2019-12-28 22:22:50 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 22:22:50 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 22:22:50 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   501         w   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 22:22:50 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([4]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([4])]
+2019-12-28 22:22:50 WARNING  root  - pred is [[0.51950246]]
+127.0.0.1 - - [2019-12-28 22:22:50] "POST /webhook HTTP/1.1" 200 221 0.180560
+2019-12-28 22:23:34 WARNING  root  - in action_predict_delay_complete
+2019-12-28 22:23:34 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 22:23:34 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 22:23:34 WARNING  root  - score_df after load is    Route Direction hour  year month daym day
+0  Clair         e   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+2019-12-28 22:23:34 ERROR    rasa_sdk.endpoint  - Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\preprocessing\label.py", line 68, in _encode_python
+    encoded = np.array([table[v] for v in values])
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\preprocessing\label.py", line 68, in <listcomp>
+    encoded = np.array([table[v] for v in values])
+KeyError: 'Clair'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\endpoint.py", line 59, in webhook
+    response = executor.run(action_call)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\executor.py", line 254, in run
+    events = action(dispatcher, tracker, domain)
+  File "C:\personal\chatbot_july_2019\streetcar_1\actions.py", line 208, in run
+    prepped_xform1 = pipeline1.transform(score_df)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\pipeline.py", line 451, in _transform
+    Xt = transform.transform(Xt)
+  File "C:\personal\chatbot_july_2019\streetcar_1\custom_classes.py", line 38, in transform
+    X[col] = self.le[col].transform(X[col])
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\preprocessing\label.py", line 257, in transform
+    _, y = _encode(y, uniques=self.classes_, encode=True)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\preprocessing\label.py", line 108, in _encode
+    return _encode_python(values, uniques, encode)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\preprocessing\label.py", line 71, in _encode_python
+    % str(e))
+ValueError: y contains previously unseen labels: 'Clair'
+127.0.0.1 - - [2019-12-28 22:23:34] "POST /webhook HTTP/1.1" 500 411 0.338091
+2019-12-28 22:24:23 WARNING  root  - in action_predict_delay_complete
+2019-12-28 22:24:23 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 22:24:23 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 22:24:23 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   512         e   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 22:24:23 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([13]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([1])]
+2019-12-28 22:24:23 WARNING  root  - pred is [[0.68367594]]
+127.0.0.1 - - [2019-12-28 22:24:23] "POST /webhook HTTP/1.1" 200 221 0.201431
+2019-12-28 22:24:47 WARNING  root  - in action_predict_delay_complete
+2019-12-28 22:24:47 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 22:24:47 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 22:24:47 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   512         w   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 22:24:47 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([13]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([4])]
+2019-12-28 22:24:47 WARNING  root  - pred is [[0.46784598]]
+127.0.0.1 - - [2019-12-28 22:24:47] "POST /webhook HTTP/1.1" 200 219 0.116664
+2019-12-28 22:26:23 WARNING  root  - in action_predict_delay_complete
+2019-12-28 22:26:23 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 22:26:23 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 22:26:23 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   512         w   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 22:26:24 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([13]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([4])]
+2019-12-28 22:26:24 WARNING  root  - pred is [[0.46784598]]
+127.0.0.1 - - [2019-12-28 22:26:24] "POST /webhook HTTP/1.1" 200 219 0.150539
+2019-12-28 22:26:38 WARNING  root  - in action_predict_delay_complete
+2019-12-28 22:26:38 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 22:26:38 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 22:26:38 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   512         e   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 22:26:38 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([13]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([1])]
+2019-12-28 22:26:38 WARNING  root  - pred is [[0.68367594]]
+127.0.0.1 - - [2019-12-28 22:26:38] "POST /webhook HTTP/1.1" 200 221 0.064829
+2019-12-28 23:14:14 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:14:14 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:14:14 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:14:14 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   512         e   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:14:14 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([13]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([1])]
+2019-12-28 23:14:14 WARNING  root  - pred is [[0.68367594]]
+127.0.0.1 - - [2019-12-28 23:14:14] "POST /webhook HTTP/1.1" 200 221 0.226877
+2019-12-28 23:14:17 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:14:17 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:14:17 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:14:17 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   512         e   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:14:17 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([13]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([1])]
+2019-12-28 23:14:17 WARNING  root  - pred is [[0.68367594]]
+127.0.0.1 - - [2019-12-28 23:14:17] "POST /webhook HTTP/1.1" 200 221 0.183544
+2019-12-28 23:14:35 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:14:36 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:14:36 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:14:36 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   512         w   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:14:36 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([13]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([4])]
+2019-12-28 23:14:36 WARNING  root  - pred is [[0.46784598]]
+127.0.0.1 - - [2019-12-28 23:14:36] "POST /webhook HTTP/1.1" 200 219 0.183509
+2019-12-28 23:16:34 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:16:34 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:16:34 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:16:34 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   512         s   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:16:34 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([13]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([3])]
+2019-12-28 23:16:34 WARNING  root  - pred is [[0.3096848]]
+127.0.0.1 - - [2019-12-28 23:16:34] "POST /webhook HTTP/1.1" 200 219 0.171577
+2019-12-28 23:17:00 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:17:00 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:17:00 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:17:00 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   510         n   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:17:01 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([11]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([2])]
+2019-12-28 23:17:01 WARNING  root  - pred is [[0.30686718]]
+127.0.0.1 - - [2019-12-28 23:17:01] "POST /webhook HTTP/1.1" 200 219 0.170540
+2019-12-28 23:17:18 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:17:18 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:17:18 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:17:18 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   510         e   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:17:18 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([11]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([1])]
+2019-12-28 23:17:18 WARNING  root  - pred is [[0.67015964]]
+127.0.0.1 - - [2019-12-28 23:17:18] "POST /webhook HTTP/1.1" 200 221 0.165552
+2019-12-28 23:17:36 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:17:36 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:17:36 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:17:36 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   510         w   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:17:36 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([11]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([4])]
+2019-12-28 23:17:36 WARNING  root  - pred is [[0.45432964]]
+127.0.0.1 - - [2019-12-28 23:17:36] "POST /webhook HTTP/1.1" 200 219 0.138658
+2019-12-28 23:17:58 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:17:58 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:17:58 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:17:58 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   510         e   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:17:58 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([11]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([1])]
+2019-12-28 23:17:58 WARNING  root  - pred is [[0.67015964]]
+127.0.0.1 - - [2019-12-28 23:17:58] "POST /webhook HTTP/1.1" 200 221 0.187543
+2019-12-28 23:18:13 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:18:13 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:18:13 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:18:13 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   510         w   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:18:13 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([11]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([4])]
+2019-12-28 23:18:13 WARNING  root  - pred is [[0.45432964]]
+127.0.0.1 - - [2019-12-28 23:18:13] "POST /webhook HTTP/1.1" 200 219 0.148606
+2019-12-28 23:20:16 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:20:16 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:20:16 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:20:16 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   510         e   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:20:16 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([11]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([1])]
+2019-12-28 23:20:16 WARNING  root  - pred is [[0.67015964]]
+127.0.0.1 - - [2019-12-28 23:20:16] "POST /webhook HTTP/1.1" 200 221 0.055850
+2019-12-28 23:20:30 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:20:30 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:20:30 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:20:30 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   510         w   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:20:30 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([11]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([4])]
+2019-12-28 23:20:30 WARNING  root  - pred is [[0.45432964]]
+127.0.0.1 - - [2019-12-28 23:20:30] "POST /webhook HTTP/1.1" 200 219 0.052854
+2019-12-28 23:20:51 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:20:51 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:20:51 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:20:51 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   510         e   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:20:51 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([11]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([1])]
+2019-12-28 23:20:51 WARNING  root  - pred is [[0.67015964]]
+127.0.0.1 - - [2019-12-28 23:20:51] "POST /webhook HTTP/1.1" 200 221 0.057846
+2019-12-28 23:21:08 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:21:08 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:21:08 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:21:09 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   510         w   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:21:09 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([11]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([4])]
+2019-12-28 23:21:09 WARNING  root  - pred is [[0.45432964]]
+127.0.0.1 - - [2019-12-28 23:21:09] "POST /webhook HTTP/1.1" 200 219 0.051864
+2019-12-28 23:21:39 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:21:39 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:21:39 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:21:39 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   506         w   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:21:39 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([9]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([4])]
+2019-12-28 23:21:39 WARNING  root  - pred is [[0.52993673]]
+127.0.0.1 - - [2019-12-28 23:21:39] "POST /webhook HTTP/1.1" 200 221 0.066817
+2019-12-28 23:21:56 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:21:56 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:21:56 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:21:56 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   506         e   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:21:56 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([9]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([1])]
+2019-12-28 23:21:56 WARNING  root  - pred is [[0.7457667]]
+127.0.0.1 - - [2019-12-28 23:21:56] "POST /webhook HTTP/1.1" 200 221 0.047867
+2019-12-28 23:23:45 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:23:45 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:23:45 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:23:45 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   506         w   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:23:45 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([9]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([4])]
+2019-12-28 23:23:45 WARNING  root  - pred is [[0.52993673]]
+127.0.0.1 - - [2019-12-28 23:23:45] "POST /webhook HTTP/1.1" 200 221 0.046874
+2019-12-28 23:24:00 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:24:00 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:24:00 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:24:00 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   506         e   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:24:00 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([9]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([1])]
+2019-12-28 23:24:00 WARNING  root  - pred is [[0.7457667]]
+127.0.0.1 - - [2019-12-28 23:24:00] "POST /webhook HTTP/1.1" 200 221 0.052860
+2019-12-28 23:24:17 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:24:17 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:24:17 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:24:17 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   501         e   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:24:17 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([4]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([1])]
+2019-12-28 23:24:17 WARNING  root  - pred is [[0.73533237]]
+127.0.0.1 - - [2019-12-28 23:24:17] "POST /webhook HTTP/1.1" 200 221 0.052859
+2019-12-28 23:24:33 WARNING  root  - in action_predict_delay_complete
+2019-12-28 23:24:33 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-28 23:24:33 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-28 23:24:33 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   501         w   12  2019     1   28   5
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-28 23:24:33 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([4]), array([5], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([27], dtype=int64), array([4])]
+2019-12-28 23:24:33 WARNING  root  - pred is [[0.51950246]]
+127.0.0.1 - - [2019-12-28 23:24:33] "POST /webhook HTTP/1.1" 200 221 0.046904
+2019-12-29 07:51:28 WARNING  root  - in action_predict_delay_complete
+2019-12-29 07:51:28 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 07:51:28 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 07:51:28 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   501         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 07:51:28 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([4]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 07:51:28 WARNING  root  - pred is [[0.79705083]]
+127.0.0.1 - - [2019-12-29 07:51:28] "POST /webhook HTTP/1.1" 200 221 0.218377
+2019-12-29 07:51:32 WARNING  root  - in action_predict_delay_complete
+2019-12-29 07:51:32 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 07:51:32 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 07:51:32 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   501         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 07:51:32 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([4]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 07:51:32 WARNING  root  - pred is [[0.79705083]]
+127.0.0.1 - - [2019-12-29 07:51:32] "POST /webhook HTTP/1.1" 200 221 0.191532
+2019-12-29 07:51:35 WARNING  root  - in action_predict_delay_complete
+2019-12-29 07:51:35 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 07:51:35 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 07:51:35 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   501         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 07:51:35 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([4]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 07:51:35 WARNING  root  - pred is [[0.79705083]]
+127.0.0.1 - - [2019-12-29 07:51:35] "POST /webhook HTTP/1.1" 200 221 0.158595
+2019-12-29 07:52:00 WARNING  root  - in action_predict_delay_complete
+2019-12-29 07:52:00 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 07:52:00 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 07:52:00 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   501         w   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 07:52:01 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([4]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([4])]
+2019-12-29 07:52:01 WARNING  root  - pred is [[0.58122087]]
+127.0.0.1 - - [2019-12-29 07:52:01] "POST /webhook HTTP/1.1" 200 221 0.184507
+2019-12-29 07:52:11 WARNING  root  - in action_predict_delay_complete
+2019-12-29 07:52:11 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 07:52:11 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 07:52:11 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   501         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 07:52:11 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([4]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 07:52:11 WARNING  root  - pred is [[0.79705083]]
+127.0.0.1 - - [2019-12-29 07:52:11] "POST /webhook HTTP/1.1" 200 221 0.181514
+2019-12-29 07:53:02 WARNING  root  - in action_predict_delay_complete
+2019-12-29 07:53:02 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 07:53:02 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 07:53:02 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   504         w   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 07:53:02 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([7]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([4])]
+2019-12-29 07:53:03 WARNING  root  - pred is [[0.6363107]]
+127.0.0.1 - - [2019-12-29 07:53:03] "POST /webhook HTTP/1.1" 200 221 0.068816
+2019-12-29 07:53:24 WARNING  root  - in action_predict_delay_complete
+2019-12-29 07:53:24 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 07:53:24 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 07:53:24 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   504         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 07:53:24 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([7]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 07:53:24 WARNING  root  - pred is [[0.85214067]]
+127.0.0.1 - - [2019-12-29 07:53:24] "POST /webhook HTTP/1.1" 200 221 0.150620
+2019-12-29 07:53:37 WARNING  root  - in action_predict_delay_complete
+2019-12-29 07:53:37 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 07:53:37 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 07:53:37 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   503         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 07:53:37 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([6]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 07:53:37 WARNING  root  - pred is [[0.4875764]]
+127.0.0.1 - - [2019-12-29 07:53:37] "POST /webhook HTTP/1.1" 200 219 0.142610
+2019-12-29 07:53:49 WARNING  root  - in action_predict_delay_complete
+2019-12-29 07:53:49 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 07:53:49 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 07:53:49 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   503         w   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 07:53:49 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([6]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([4])]
+2019-12-29 07:53:49 WARNING  root  - pred is [[0.27174646]]
+127.0.0.1 - - [2019-12-29 07:53:49] "POST /webhook HTTP/1.1" 200 219 0.188530
+2019-12-29 07:54:05 WARNING  root  - in action_predict_delay_complete
+2019-12-29 07:54:05 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 07:54:05 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 07:54:05 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   506         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 07:54:05 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([9]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 07:54:05 WARNING  root  - pred is [[0.80748516]]
+127.0.0.1 - - [2019-12-29 07:54:05] "POST /webhook HTTP/1.1" 200 221 0.075812
+2019-12-29 07:54:38 WARNING  root  - in action_predict_delay_complete
+2019-12-29 07:54:38 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 07:54:38 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 07:54:38 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   506         w   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 07:54:39 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([9]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([4])]
+2019-12-29 07:54:39 WARNING  root  - pred is [[0.5916552]]
+127.0.0.1 - - [2019-12-29 07:54:39] "POST /webhook HTTP/1.1" 200 221 0.225396
+2019-12-29 07:54:52 WARNING  root  - in action_predict_delay_complete
+2019-12-29 07:54:52 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 07:54:52 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 07:54:52 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   512         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 07:54:52 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([13]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 07:54:52 WARNING  root  - pred is [[0.7453943]]
+127.0.0.1 - - [2019-12-29 07:54:52] "POST /webhook HTTP/1.1" 200 221 0.207455
+2019-12-29 07:55:03 WARNING  root  - in action_predict_delay_complete
+2019-12-29 07:55:03 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 07:55:03 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 07:55:03 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   512         w   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 07:55:03 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([13]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([4])]
+2019-12-29 07:55:03 WARNING  root  - pred is [[0.5295643]]
+127.0.0.1 - - [2019-12-29 07:55:03] "POST /webhook HTTP/1.1" 200 221 0.189284
+2019-12-29 08:04:42 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:04:42 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:04:42 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:04:42 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   509         n   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:04:42 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([10]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([2])]
+2019-12-29 08:04:42 WARNING  root  - pred is [[0.20832935]]
+127.0.0.1 - - [2019-12-29 08:04:42] "POST /webhook HTTP/1.1" 200 219 0.193480
+2019-12-29 08:04:56 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:04:56 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:04:56 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:04:56 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   509         s   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:04:56 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([10]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([3])]
+2019-12-29 08:04:56 WARNING  root  - pred is [[0.19763061]]
+127.0.0.1 - - [2019-12-29 08:04:56] "POST /webhook HTTP/1.1" 200 219 0.165511
+2019-12-29 08:05:21 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:05:21 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:05:21 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:05:21 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   510         n   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:05:21 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([11]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([2])]
+2019-12-29 08:05:21 WARNING  root  - pred is [[0.3685856]]
+127.0.0.1 - - [2019-12-29 08:05:21] "POST /webhook HTTP/1.1" 200 219 0.105716
+2019-12-29 08:05:27 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:05:27 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:05:27 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:05:27 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   510         n   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:05:27 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([11]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([2])]
+2019-12-29 08:05:27 WARNING  root  - pred is [[0.3685856]]
+127.0.0.1 - - [2019-12-29 08:05:27] "POST /webhook HTTP/1.1" 200 219 0.175529
+2019-12-29 08:05:38 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:05:38 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:05:38 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:05:38 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   511         s   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:05:38 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([12]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([3])]
+2019-12-29 08:05:38 WARNING  root  - pred is [[0.2830246]]
+127.0.0.1 - - [2019-12-29 08:05:38] "POST /webhook HTTP/1.1" 200 219 0.183508
+2019-12-29 08:05:52 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:05:52 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:05:52 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:05:53 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   501         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:05:53 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([4]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 08:05:53 WARNING  root  - pred is [[0.79705083]]
+127.0.0.1 - - [2019-12-29 08:05:53] "POST /webhook HTTP/1.1" 200 221 0.197474
+2019-12-29 08:06:03 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:06:03 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:06:03 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:06:03 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   504         w   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:06:03 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([7]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([4])]
+2019-12-29 08:06:03 WARNING  root  - pred is [[0.6363107]]
+127.0.0.1 - - [2019-12-29 08:06:03] "POST /webhook HTTP/1.1" 200 221 0.099736
+2019-12-29 08:06:16 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:06:16 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:06:16 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:06:16 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   504         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:06:17 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([7]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 08:06:17 WARNING  root  - pred is [[0.85214067]]
+127.0.0.1 - - [2019-12-29 08:06:17] "POST /webhook HTTP/1.1" 200 221 0.066819
+2019-12-29 08:07:18 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:07:18 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:07:18 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:07:18 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   506         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:07:18 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([9]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 08:07:18 WARNING  root  - pred is [[0.80748516]]
+127.0.0.1 - - [2019-12-29 08:07:18] "POST /webhook HTTP/1.1" 200 221 0.183982
+2019-12-29 08:07:33 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:07:33 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:07:33 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:07:33 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   506         w   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:07:33 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([9]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([4])]
+2019-12-29 08:07:33 WARNING  root  - pred is [[0.5916552]]
+127.0.0.1 - - [2019-12-29 08:07:33] "POST /webhook HTTP/1.1" 200 221 0.118671
+2019-12-29 08:07:43 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:07:43 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:07:43 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:07:43 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   506         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:07:43 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([9]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 08:07:43 WARNING  root  - pred is [[0.80748516]]
+127.0.0.1 - - [2019-12-29 08:07:43] "POST /webhook HTTP/1.1" 200 221 0.101720
+2019-12-29 08:16:32 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:16:32 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:16:32 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:16:32 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   506         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:16:32 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([9]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 08:16:32 WARNING  root  - pred is [[0.80748516]]
+127.0.0.1 - - [2019-12-29 08:16:32] "POST /webhook HTTP/1.1" 200 221 0.217420
+Traceback (most recent call last):
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\gevent\_ffi\loop.py", line 234, in python_check_callback
+    def python_check_callback(self, watcher_ptr): # pylint:disable=unused-argument
+KeyboardInterrupt
+2019-12-29T13:17:17Z
+Traceback (most recent call last):
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\ryanm\AppData\Local\Programs\Python\Python37\Scripts\rasa.exe\__main__.py", line 9, in <module>
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa\__main__.py", line 76, in main
+    cmdline_arguments.func(cmdline_arguments)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa\cli\run.py", line 55, in run_actions
+    sdk.main_from_args(args)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\__main__.py", line 18, in main_from_args
+    run(args.actions, args.port, args.cors)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\endpoint.py", line 134, in run
+    http_server.serve_forever()
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\gevent\baseserver.py", line 369, in serve_forever
+    self._stop_event.wait()
+  File "src\gevent\event.py", line 127, in gevent._event.Event.wait
+  File "src\gevent\_abstract_linkable.py", line 192, in gevent.__abstract_linkable.AbstractLinkable._wait
+  File "src\gevent\_abstract_linkable.py", line 165, in gevent.__abstract_linkable.AbstractLinkable._wait_core
+  File "src\gevent\_abstract_linkable.py", line 169, in gevent.__abstract_linkable.AbstractLinkable._wait_core
+  File "src\gevent\_greenlet_primitives.py", line 60, in gevent.__greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\gevent\_greenlet_primitives.py", line 60, in gevent.__greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\gevent\_greenlet_primitives.py", line 64, in gevent.__greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\gevent\__greenlet_primitives.pxd", line 35, in gevent.__greenlet_primitives._greenlet_switch
+KeyboardInterrupt
+PS C:\personal\chatbot_july_2019\streetcar_1> rasa run actions
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+2019-12-29 08:17:29 INFO     rasa_sdk.endpoint  - Starting action endpoint server...
+Using TensorFlow backend.
+2019-12-29 08:17:30 WARNING  root  - logging check
+Model: "model_2"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to
+==================================================================================================
+hour (InputLayer)               (None, 1)            0
+__________________________________________________________________________________________________
+Route (InputLayer)              (None, 1)            0
+__________________________________________________________________________________________________
+embedding_8 (Embedding)         (None, 1, 10)        240         hour[0][0]
+__________________________________________________________________________________________________
+embedding_9 (Embedding)         (None, 1, 10)        140         Route[0][0]
+__________________________________________________________________________________________________
+day (InputLayer)                (None, 1)            0
+__________________________________________________________________________________________________
+batch_normalization_8 (BatchNor (None, 1, 10)        40          embedding_8[0][0]
+__________________________________________________________________________________________________
+batch_normalization_9 (BatchNor (None, 1, 10)        40          embedding_9[0][0]
+__________________________________________________________________________________________________
+embedding_10 (Embedding)        (None, 1, 10)        70          day[0][0]
+__________________________________________________________________________________________________
+month (InputLayer)              (None, 1)            0
+__________________________________________________________________________________________________
+flatten_8 (Flatten)             (None, 10)           0           batch_normalization_8[0][0]
+__________________________________________________________________________________________________
+flatten_9 (Flatten)             (None, 10)           0           batch_normalization_9[0][0]
+__________________________________________________________________________________________________
+batch_normalization_10 (BatchNo (None, 1, 10)        40          embedding_10[0][0]
+__________________________________________________________________________________________________
+embedding_11 (Embedding)        (None, 1, 10)        120         month[0][0]
+__________________________________________________________________________________________________
+year (InputLayer)               (None, 1)            0
+__________________________________________________________________________________________________
+dropout_8 (Dropout)             (None, 10)           0           flatten_8[0][0]
+__________________________________________________________________________________________________
+dropout_9 (Dropout)             (None, 10)           0           flatten_9[0][0]
+__________________________________________________________________________________________________
+flatten_10 (Flatten)            (None, 10)           0           batch_normalization_10[0][0]
+__________________________________________________________________________________________________
+batch_normalization_11 (BatchNo (None, 1, 10)        40          embedding_11[0][0]
+__________________________________________________________________________________________________
+embedding_12 (Embedding)        (None, 1, 10)        60          year[0][0]
+__________________________________________________________________________________________________
+daym (InputLayer)               (None, 1)            0
+__________________________________________________________________________________________________
+concatenate_7 (Concatenate)     (None, 20)           0           dropout_8[0][0]
+                                                                 dropout_9[0][0]
+__________________________________________________________________________________________________
+dropout_10 (Dropout)            (None, 10)           0           flatten_10[0][0]
+__________________________________________________________________________________________________
+flatten_11 (Flatten)            (None, 10)           0           batch_normalization_11[0][0]
+__________________________________________________________________________________________________
+batch_normalization_12 (BatchNo (None, 1, 10)        40          embedding_12[0][0]
+__________________________________________________________________________________________________
+embedding_13 (Embedding)        (None, 1, 10)        310         daym[0][0]
+__________________________________________________________________________________________________
+Direction (InputLayer)          (None, 1)            0
+__________________________________________________________________________________________________
+concatenate_8 (Concatenate)     (None, 30)           0           concatenate_7[0][0]
+                                                                 dropout_10[0][0]
+__________________________________________________________________________________________________
+dropout_11 (Dropout)            (None, 10)           0           flatten_11[0][0]
+__________________________________________________________________________________________________
+flatten_12 (Flatten)            (None, 10)           0           batch_normalization_12[0][0]
+__________________________________________________________________________________________________
+batch_normalization_13 (BatchNo (None, 1, 10)        40          embedding_13[0][0]
+__________________________________________________________________________________________________
+embedding_14 (Embedding)        (None, 1, 10)        50          Direction[0][0]
+__________________________________________________________________________________________________
+concatenate_9 (Concatenate)     (None, 40)           0           concatenate_8[0][0]
+                                                                 dropout_11[0][0]
+__________________________________________________________________________________________________
+dropout_12 (Dropout)            (None, 10)           0           flatten_12[0][0]
+__________________________________________________________________________________________________
+flatten_13 (Flatten)            (None, 10)           0           batch_normalization_13[0][0]
+__________________________________________________________________________________________________
+batch_normalization_14 (BatchNo (None, 1, 10)        40          embedding_14[0][0]
+__________________________________________________________________________________________________
+concatenate_10 (Concatenate)    (None, 50)           0           concatenate_9[0][0]
+                                                                 dropout_12[0][0]
+__________________________________________________________________________________________________
+dropout_13 (Dropout)            (None, 10)           0           flatten_13[0][0]
+__________________________________________________________________________________________________
+flatten_14 (Flatten)            (None, 10)           0           batch_normalization_14[0][0]
+__________________________________________________________________________________________________
+concatenate_11 (Concatenate)    (None, 60)           0           concatenate_10[0][0]
+                                                                 dropout_13[0][0]
+__________________________________________________________________________________________________
+dropout_14 (Dropout)            (None, 10)           0           flatten_14[0][0]
+__________________________________________________________________________________________________
+concatenate_12 (Concatenate)    (None, 70)           0           concatenate_11[0][0]
+                                                                 dropout_14[0][0]
+__________________________________________________________________________________________________
+dense_2 (Dense)                 (None, 1)            71          concatenate_12[0][0]
+==================================================================================================
+Total params: 1,341
+Trainable params: 1,201
+Non-trainable params: 140
+__________________________________________________________________________________________________
+2019-12-29 08:17:35 WARNING  root  - score_cols after define is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:17:35 WARNING  root  - pred is [[0.41801068]]
+2019-12-29 08:17:35 WARNING  root  - preds[0] is [0.41801068]
+2019-12-29 08:17:35 WARNING  root  - preds[0][0] is 0.41801068
+2019-12-29 08:17:35 WARNING  root  - prepped_pd is   Route Direction  hour  year  month  daym  day  Unnamed: 7
+0    301         e     0  2018      1     1    2         NaN
+1    301         e     1  2017      1     1    2         NaN
+2019-12-29 08:17:53 WARNING  root  - in action_predict_delay_complete
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\base.py:253: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.20.3 when using version 0.20.4. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\base.py:253: UserWarning: Trying to unpickle estimator Pipeline from version 0.20.3 when using version 0.20.4. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+2019-12-29 08:17:53 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:17:53 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:17:53 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   506         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:17:53 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([9]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 08:17:53 WARNING  root  - pred is [[0.80748516]]
+127.0.0.1 - - [2019-12-29 08:17:53] "POST /webhook HTTP/1.1" 200 221 0.248173
+Traceback (most recent call last):
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\gevent\_ffi\loop.py", line 234, in python_check_callback
+    def python_check_callback(self, watcher_ptr): # pylint:disable=unused-argument
+KeyboardInterrupt
+2019-12-29T13:20:34Z
+Traceback (most recent call last):
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\ryanm\AppData\Local\Programs\Python\Python37\Scripts\rasa.exe\__main__.py", line 9, in <module>
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa\__main__.py", line 76, in main
+    cmdline_arguments.func(cmdline_arguments)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa\cli\run.py", line 55, in run_actions
+    sdk.main_from_args(args)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\__main__.py", line 18, in main_from_args
+    run(args.actions, args.port, args.cors)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\endpoint.py", line 134, in run
+    http_server.serve_forever()
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\gevent\baseserver.py", line 369, in serve_forever
+    self._stop_event.wait()
+  File "src\gevent\event.py", line 127, in gevent._event.Event.wait
+  File "src\gevent\_abstract_linkable.py", line 192, in gevent.__abstract_linkable.AbstractLinkable._wait
+  File "src\gevent\_abstract_linkable.py", line 165, in gevent.__abstract_linkable.AbstractLinkable._wait_core
+  File "src\gevent\_abstract_linkable.py", line 169, in gevent.__abstract_linkable.AbstractLinkable._wait_core
+  File "src\gevent\_greenlet_primitives.py", line 60, in gevent.__greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\gevent\_greenlet_primitives.py", line 60, in gevent.__greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\gevent\_greenlet_primitives.py", line 64, in gevent.__greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\gevent\__greenlet_primitives.pxd", line 35, in gevent.__greenlet_primitives._greenlet_switch
+KeyboardInterrupt
+PS C:\personal\chatbot_july_2019\streetcar_1> ^C
+PS C:\personal\chatbot_july_2019\streetcar_1> rasa run actions
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+2019-12-29 08:20:44 INFO     rasa_sdk.endpoint  - Starting action endpoint server...
+Using TensorFlow backend.
+2019-12-29 08:20:46 WARNING  root  - logging check
+Model: "model_2"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to
+==================================================================================================
+hour (InputLayer)               (None, 1)            0
+__________________________________________________________________________________________________
+Route (InputLayer)              (None, 1)            0
+__________________________________________________________________________________________________
+embedding_8 (Embedding)         (None, 1, 10)        240         hour[0][0]
+__________________________________________________________________________________________________
+embedding_9 (Embedding)         (None, 1, 10)        140         Route[0][0]
+__________________________________________________________________________________________________
+day (InputLayer)                (None, 1)            0
+__________________________________________________________________________________________________
+batch_normalization_8 (BatchNor (None, 1, 10)        40          embedding_8[0][0]
+__________________________________________________________________________________________________
+batch_normalization_9 (BatchNor (None, 1, 10)        40          embedding_9[0][0]
+__________________________________________________________________________________________________
+embedding_10 (Embedding)        (None, 1, 10)        70          day[0][0]
+__________________________________________________________________________________________________
+month (InputLayer)              (None, 1)            0
+__________________________________________________________________________________________________
+flatten_8 (Flatten)             (None, 10)           0           batch_normalization_8[0][0]
+__________________________________________________________________________________________________
+flatten_9 (Flatten)             (None, 10)           0           batch_normalization_9[0][0]
+__________________________________________________________________________________________________
+batch_normalization_10 (BatchNo (None, 1, 10)        40          embedding_10[0][0]
+__________________________________________________________________________________________________
+embedding_11 (Embedding)        (None, 1, 10)        120         month[0][0]
+__________________________________________________________________________________________________
+year (InputLayer)               (None, 1)            0
+__________________________________________________________________________________________________
+dropout_8 (Dropout)             (None, 10)           0           flatten_8[0][0]
+__________________________________________________________________________________________________
+dropout_9 (Dropout)             (None, 10)           0           flatten_9[0][0]
+__________________________________________________________________________________________________
+flatten_10 (Flatten)            (None, 10)           0           batch_normalization_10[0][0]
+__________________________________________________________________________________________________
+batch_normalization_11 (BatchNo (None, 1, 10)        40          embedding_11[0][0]
+__________________________________________________________________________________________________
+embedding_12 (Embedding)        (None, 1, 10)        60          year[0][0]
+__________________________________________________________________________________________________
+daym (InputLayer)               (None, 1)            0
+__________________________________________________________________________________________________
+concatenate_7 (Concatenate)     (None, 20)           0           dropout_8[0][0]
+                                                                 dropout_9[0][0]
+__________________________________________________________________________________________________
+dropout_10 (Dropout)            (None, 10)           0           flatten_10[0][0]
+__________________________________________________________________________________________________
+flatten_11 (Flatten)            (None, 10)           0           batch_normalization_11[0][0]
+__________________________________________________________________________________________________
+batch_normalization_12 (BatchNo (None, 1, 10)        40          embedding_12[0][0]
+__________________________________________________________________________________________________
+embedding_13 (Embedding)        (None, 1, 10)        310         daym[0][0]
+__________________________________________________________________________________________________
+Direction (InputLayer)          (None, 1)            0
+__________________________________________________________________________________________________
+concatenate_8 (Concatenate)     (None, 30)           0           concatenate_7[0][0]
+                                                                 dropout_10[0][0]
+__________________________________________________________________________________________________
+dropout_11 (Dropout)            (None, 10)           0           flatten_11[0][0]
+__________________________________________________________________________________________________
+flatten_12 (Flatten)            (None, 10)           0           batch_normalization_12[0][0]
+__________________________________________________________________________________________________
+batch_normalization_13 (BatchNo (None, 1, 10)        40          embedding_13[0][0]
+__________________________________________________________________________________________________
+embedding_14 (Embedding)        (None, 1, 10)        50          Direction[0][0]
+__________________________________________________________________________________________________
+concatenate_9 (Concatenate)     (None, 40)           0           concatenate_8[0][0]
+                                                                 dropout_11[0][0]
+__________________________________________________________________________________________________
+dropout_12 (Dropout)            (None, 10)           0           flatten_12[0][0]
+__________________________________________________________________________________________________
+flatten_13 (Flatten)            (None, 10)           0           batch_normalization_13[0][0]
+__________________________________________________________________________________________________
+batch_normalization_14 (BatchNo (None, 1, 10)        40          embedding_14[0][0]
+__________________________________________________________________________________________________
+concatenate_10 (Concatenate)    (None, 50)           0           concatenate_9[0][0]
+                                                                 dropout_12[0][0]
+__________________________________________________________________________________________________
+dropout_13 (Dropout)            (None, 10)           0           flatten_13[0][0]
+__________________________________________________________________________________________________
+flatten_14 (Flatten)            (None, 10)           0           batch_normalization_14[0][0]
+__________________________________________________________________________________________________
+concatenate_11 (Concatenate)    (None, 60)           0           concatenate_10[0][0]
+                                                                 dropout_13[0][0]
+__________________________________________________________________________________________________
+dropout_14 (Dropout)            (None, 10)           0           flatten_14[0][0]
+__________________________________________________________________________________________________
+concatenate_12 (Concatenate)    (None, 70)           0           concatenate_11[0][0]
+                                                                 dropout_14[0][0]
+__________________________________________________________________________________________________
+dense_2 (Dense)                 (None, 1)            71          concatenate_12[0][0]
+==================================================================================================
+Total params: 1,341
+Trainable params: 1,201
+Non-trainable params: 140
+__________________________________________________________________________________________________
+2019-12-29 08:20:53 WARNING  root  - score_cols after define is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:20:54 WARNING  root  - pred is [[0.41801068]]
+2019-12-29 08:20:54 WARNING  root  - preds[0] is [0.41801068]
+2019-12-29 08:20:54 WARNING  root  - preds[0][0] is 0.41801068
+2019-12-29 08:20:54 WARNING  root  - prepped_pd is   Route Direction  hour  year  month  daym  day  Unnamed: 7
+0    301         e     0  2018      1     1    2         NaN
+1    301         e     1  2017      1     1    2         NaN
+2019-12-29 08:22:36 WARNING  root  - in action_predict_delay_complete
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\base.py:253: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.20.3 when using version 0.20.4. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\base.py:253: UserWarning: Trying to unpickle estimator Pipeline from version 0.20.3 when using version 0.20.4. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+2019-12-29 08:22:36 WARNING  root  - score_default is {'hour': 12, 'Route': '501', 'daym': 29, 'month': 12, 'year': 2019, 'Direction': 'e', 'day': 6}
+2019-12-29 08:22:36 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:22:36 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:22:36 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   506         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:22:36 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([9]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 08:22:36 WARNING  root  - pred is [[0.80748516]]
+2019-12-29 08:22:36 ERROR    rasa_sdk.endpoint  - Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\endpoint.py", line 59, in webhook
+    response = executor.run(action_call)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\executor.py", line 254, in run
+    events = action(dispatcher, tracker, domain)
+  File "C:\personal\chatbot_july_2019\streetcar_1\actions.py", line 220, in run
+    return [SlotSet("hour",None),SlotSet("day",None),SlotSet("daym",None)]
+NameError: name 'SlotSet' is not defined
+127.0.0.1 - - [2019-12-29 08:22:36] "POST /webhook HTTP/1.1" 500 411 0.335168
+Traceback (most recent call last):
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\gevent\_ffi\loop.py", line 234, in python_check_callback
+    def python_check_callback(self, watcher_ptr): # pylint:disable=unused-argument
+KeyboardInterrupt
+2019-12-29T13:23:35Z
+Traceback (most recent call last):
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\ryanm\AppData\Local\Programs\Python\Python37\Scripts\rasa.exe\__main__.py", line 9, in <module>
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa\__main__.py", line 76, in main
+    cmdline_arguments.func(cmdline_arguments)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa\cli\run.py", line 55, in run_actions
+    sdk.main_from_args(args)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\__main__.py", line 18, in main_from_args
+    run(args.actions, args.port, args.cors)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\endpoint.py", line 134, in run
+    http_server.serve_forever()
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\gevent\baseserver.py", line 369, in serve_forever
+    self._stop_event.wait()
+  File "src\gevent\event.py", line 127, in gevent._event.Event.wait
+  File "src\gevent\_abstract_linkable.py", line 192, in gevent.__abstract_linkable.AbstractLinkable._wait
+  File "src\gevent\_abstract_linkable.py", line 165, in gevent.__abstract_linkable.AbstractLinkable._wait_core
+  File "src\gevent\_abstract_linkable.py", line 169, in gevent.__abstract_linkable.AbstractLinkable._wait_core
+  File "src\gevent\_greenlet_primitives.py", line 60, in gevent.__greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\gevent\_greenlet_primitives.py", line 60, in gevent.__greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\gevent\_greenlet_primitives.py", line 64, in gevent.__greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\gevent\__greenlet_primitives.pxd", line 35, in gevent.__greenlet_primitives._greenlet_switch
+KeyboardInterrupt
+PS C:\personal\chatbot_july_2019\streetcar_1> ^C
+PS C:\personal\chatbot_july_2019\streetcar_1> rasa run actions
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+2019-12-29 08:23:43 INFO     rasa_sdk.endpoint  - Starting action endpoint server...
+Using TensorFlow backend.
+2019-12-29 08:23:44 WARNING  root  - logging check
+Model: "model_2"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to
+==================================================================================================
+hour (InputLayer)               (None, 1)            0
+__________________________________________________________________________________________________
+Route (InputLayer)              (None, 1)            0
+__________________________________________________________________________________________________
+embedding_8 (Embedding)         (None, 1, 10)        240         hour[0][0]
+__________________________________________________________________________________________________
+embedding_9 (Embedding)         (None, 1, 10)        140         Route[0][0]
+__________________________________________________________________________________________________
+day (InputLayer)                (None, 1)            0
+__________________________________________________________________________________________________
+batch_normalization_8 (BatchNor (None, 1, 10)        40          embedding_8[0][0]
+__________________________________________________________________________________________________
+batch_normalization_9 (BatchNor (None, 1, 10)        40          embedding_9[0][0]
+__________________________________________________________________________________________________
+embedding_10 (Embedding)        (None, 1, 10)        70          day[0][0]
+__________________________________________________________________________________________________
+month (InputLayer)              (None, 1)            0
+__________________________________________________________________________________________________
+flatten_8 (Flatten)             (None, 10)           0           batch_normalization_8[0][0]
+__________________________________________________________________________________________________
+flatten_9 (Flatten)             (None, 10)           0           batch_normalization_9[0][0]
+__________________________________________________________________________________________________
+batch_normalization_10 (BatchNo (None, 1, 10)        40          embedding_10[0][0]
+__________________________________________________________________________________________________
+embedding_11 (Embedding)        (None, 1, 10)        120         month[0][0]
+__________________________________________________________________________________________________
+year (InputLayer)               (None, 1)            0
+__________________________________________________________________________________________________
+dropout_8 (Dropout)             (None, 10)           0           flatten_8[0][0]
+__________________________________________________________________________________________________
+dropout_9 (Dropout)             (None, 10)           0           flatten_9[0][0]
+__________________________________________________________________________________________________
+flatten_10 (Flatten)            (None, 10)           0           batch_normalization_10[0][0]
+__________________________________________________________________________________________________
+batch_normalization_11 (BatchNo (None, 1, 10)        40          embedding_11[0][0]
+__________________________________________________________________________________________________
+embedding_12 (Embedding)        (None, 1, 10)        60          year[0][0]
+__________________________________________________________________________________________________
+daym (InputLayer)               (None, 1)            0
+__________________________________________________________________________________________________
+concatenate_7 (Concatenate)     (None, 20)           0           dropout_8[0][0]
+                                                                 dropout_9[0][0]
+__________________________________________________________________________________________________
+dropout_10 (Dropout)            (None, 10)           0           flatten_10[0][0]
+__________________________________________________________________________________________________
+flatten_11 (Flatten)            (None, 10)           0           batch_normalization_11[0][0]
+__________________________________________________________________________________________________
+batch_normalization_12 (BatchNo (None, 1, 10)        40          embedding_12[0][0]
+__________________________________________________________________________________________________
+embedding_13 (Embedding)        (None, 1, 10)        310         daym[0][0]
+__________________________________________________________________________________________________
+Direction (InputLayer)          (None, 1)            0
+__________________________________________________________________________________________________
+concatenate_8 (Concatenate)     (None, 30)           0           concatenate_7[0][0]
+                                                                 dropout_10[0][0]
+__________________________________________________________________________________________________
+dropout_11 (Dropout)            (None, 10)           0           flatten_11[0][0]
+__________________________________________________________________________________________________
+flatten_12 (Flatten)            (None, 10)           0           batch_normalization_12[0][0]
+__________________________________________________________________________________________________
+batch_normalization_13 (BatchNo (None, 1, 10)        40          embedding_13[0][0]
+__________________________________________________________________________________________________
+embedding_14 (Embedding)        (None, 1, 10)        50          Direction[0][0]
+__________________________________________________________________________________________________
+concatenate_9 (Concatenate)     (None, 40)           0           concatenate_8[0][0]
+                                                                 dropout_11[0][0]
+__________________________________________________________________________________________________
+dropout_12 (Dropout)            (None, 10)           0           flatten_12[0][0]
+__________________________________________________________________________________________________
+flatten_13 (Flatten)            (None, 10)           0           batch_normalization_13[0][0]
+__________________________________________________________________________________________________
+batch_normalization_14 (BatchNo (None, 1, 10)        40          embedding_14[0][0]
+__________________________________________________________________________________________________
+concatenate_10 (Concatenate)    (None, 50)           0           concatenate_9[0][0]
+                                                                 dropout_12[0][0]
+__________________________________________________________________________________________________
+dropout_13 (Dropout)            (None, 10)           0           flatten_13[0][0]
+__________________________________________________________________________________________________
+flatten_14 (Flatten)            (None, 10)           0           batch_normalization_14[0][0]
+__________________________________________________________________________________________________
+concatenate_11 (Concatenate)    (None, 60)           0           concatenate_10[0][0]
+                                                                 dropout_13[0][0]
+__________________________________________________________________________________________________
+dropout_14 (Dropout)            (None, 10)           0           flatten_14[0][0]
+__________________________________________________________________________________________________
+concatenate_12 (Concatenate)    (None, 70)           0           concatenate_11[0][0]
+                                                                 dropout_14[0][0]
+__________________________________________________________________________________________________
+dense_2 (Dense)                 (None, 1)            71          concatenate_12[0][0]
+==================================================================================================
+Total params: 1,341
+Trainable params: 1,201
+Non-trainable params: 140
+__________________________________________________________________________________________________
+2019-12-29 08:23:48 WARNING  root  - score_cols after define is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:23:48 WARNING  root  - pred is [[0.41801068]]
+2019-12-29 08:23:48 WARNING  root  - preds[0] is [0.41801068]
+2019-12-29 08:23:48 WARNING  root  - preds[0][0] is 0.41801068
+2019-12-29 08:23:49 WARNING  root  - prepped_pd is   Route Direction  hour  year  month  daym  day  Unnamed: 7
+0    301         e     0  2018      1     1    2         NaN
+1    301         e     1  2017      1     1    2         NaN
+2019-12-29 08:24:11 WARNING  root  - in action_predict_delay_complete
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\base.py:253: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.20.3 when using version 0.20.4. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\base.py:253: UserWarning: Trying to unpickle estimator Pipeline from version 0.20.3 when using version 0.20.4. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+2019-12-29 08:24:11 WARNING  root  - score_default is {'hour': 12, 'Route': '501', 'daym': 29, 'month': 12, 'year': 2019, 'Direction': 'e', 'day': 6}
+2019-12-29 08:24:11 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:24:11 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:24:11 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   506         e   12  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:24:11 WARNING  root  - prepped_xform2 is[array([12], dtype=int64), array([9]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 08:24:11 WARNING  root  - pred is [[0.80748516]]
+127.0.0.1 - - [2019-12-29 08:24:11] "POST /webhook HTTP/1.1" 200 403 0.195954
+Traceback (most recent call last):
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\gevent\_ffi\loop.py", line 234, in python_check_callback
+    def python_check_callback(self, watcher_ptr): # pylint:disable=unused-argument
+KeyboardInterrupt
+2019-12-29T13:25:18Z
+Traceback (most recent call last):
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\ryanm\AppData\Local\Programs\Python\Python37\Scripts\rasa.exe\__main__.py", line 9, in <module>
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa\__main__.py", line 76, in main
+    cmdline_arguments.func(cmdline_arguments)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa\cli\run.py", line 55, in run_actions
+    sdk.main_from_args(args)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\__main__.py", line 18, in main_from_args
+    run(args.actions, args.port, args.cors)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\endpoint.py", line 134, in run
+    http_server.serve_forever()
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\gevent\baseserver.py", line 369, in serve_forever
+    self._stop_event.wait()
+  File "src\gevent\event.py", line 127, in gevent._event.Event.wait
+  File "src\gevent\_abstract_linkable.py", line 192, in gevent.__abstract_linkable.AbstractLinkable._wait
+  File "src\gevent\_abstract_linkable.py", line 165, in gevent.__abstract_linkable.AbstractLinkable._wait_core
+  File "src\gevent\_abstract_linkable.py", line 169, in gevent.__abstract_linkable.AbstractLinkable._wait_core
+  File "src\gevent\_greenlet_primitives.py", line 60, in gevent.__greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\gevent\_greenlet_primitives.py", line 60, in gevent.__greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\gevent\_greenlet_primitives.py", line 64, in gevent.__greenlet_primitives.SwitchOutGreenletWithLoop.switch
+  File "src\gevent\__greenlet_primitives.pxd", line 35, in gevent.__greenlet_primitives._greenlet_switch
+KeyboardInterrupt
+PS C:\personal\chatbot_july_2019\streetcar_1> ^C
+PS C:\personal\chatbot_july_2019\streetcar_1> rasa run actions
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\tensorflow\python\framework\dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+2019-12-29 08:25:27 INFO     rasa_sdk.endpoint  - Starting action endpoint server...
+Using TensorFlow backend.
+2019-12-29 08:25:28 WARNING  root  - logging check
+Model: "model_2"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to
+==================================================================================================
+hour (InputLayer)               (None, 1)            0
+__________________________________________________________________________________________________
+Route (InputLayer)              (None, 1)            0
+__________________________________________________________________________________________________
+embedding_8 (Embedding)         (None, 1, 10)        240         hour[0][0]
+__________________________________________________________________________________________________
+embedding_9 (Embedding)         (None, 1, 10)        140         Route[0][0]
+__________________________________________________________________________________________________
+day (InputLayer)                (None, 1)            0
+__________________________________________________________________________________________________
+batch_normalization_8 (BatchNor (None, 1, 10)        40          embedding_8[0][0]
+__________________________________________________________________________________________________
+batch_normalization_9 (BatchNor (None, 1, 10)        40          embedding_9[0][0]
+__________________________________________________________________________________________________
+embedding_10 (Embedding)        (None, 1, 10)        70          day[0][0]
+__________________________________________________________________________________________________
+month (InputLayer)              (None, 1)            0
+__________________________________________________________________________________________________
+flatten_8 (Flatten)             (None, 10)           0           batch_normalization_8[0][0]
+__________________________________________________________________________________________________
+flatten_9 (Flatten)             (None, 10)           0           batch_normalization_9[0][0]
+__________________________________________________________________________________________________
+batch_normalization_10 (BatchNo (None, 1, 10)        40          embedding_10[0][0]
+__________________________________________________________________________________________________
+embedding_11 (Embedding)        (None, 1, 10)        120         month[0][0]
+__________________________________________________________________________________________________
+year (InputLayer)               (None, 1)            0
+__________________________________________________________________________________________________
+dropout_8 (Dropout)             (None, 10)           0           flatten_8[0][0]
+__________________________________________________________________________________________________
+dropout_9 (Dropout)             (None, 10)           0           flatten_9[0][0]
+__________________________________________________________________________________________________
+flatten_10 (Flatten)            (None, 10)           0           batch_normalization_10[0][0]
+__________________________________________________________________________________________________
+batch_normalization_11 (BatchNo (None, 1, 10)        40          embedding_11[0][0]
+__________________________________________________________________________________________________
+embedding_12 (Embedding)        (None, 1, 10)        60          year[0][0]
+__________________________________________________________________________________________________
+daym (InputLayer)               (None, 1)            0
+__________________________________________________________________________________________________
+concatenate_7 (Concatenate)     (None, 20)           0           dropout_8[0][0]
+                                                                 dropout_9[0][0]
+__________________________________________________________________________________________________
+dropout_10 (Dropout)            (None, 10)           0           flatten_10[0][0]
+__________________________________________________________________________________________________
+flatten_11 (Flatten)            (None, 10)           0           batch_normalization_11[0][0]
+__________________________________________________________________________________________________
+batch_normalization_12 (BatchNo (None, 1, 10)        40          embedding_12[0][0]
+__________________________________________________________________________________________________
+embedding_13 (Embedding)        (None, 1, 10)        310         daym[0][0]
+__________________________________________________________________________________________________
+Direction (InputLayer)          (None, 1)            0
+__________________________________________________________________________________________________
+concatenate_8 (Concatenate)     (None, 30)           0           concatenate_7[0][0]
+                                                                 dropout_10[0][0]
+__________________________________________________________________________________________________
+dropout_11 (Dropout)            (None, 10)           0           flatten_11[0][0]
+__________________________________________________________________________________________________
+flatten_12 (Flatten)            (None, 10)           0           batch_normalization_12[0][0]
+__________________________________________________________________________________________________
+batch_normalization_13 (BatchNo (None, 1, 10)        40          embedding_13[0][0]
+__________________________________________________________________________________________________
+embedding_14 (Embedding)        (None, 1, 10)        50          Direction[0][0]
+__________________________________________________________________________________________________
+concatenate_9 (Concatenate)     (None, 40)           0           concatenate_8[0][0]
+                                                                 dropout_11[0][0]
+__________________________________________________________________________________________________
+dropout_12 (Dropout)            (None, 10)           0           flatten_12[0][0]
+__________________________________________________________________________________________________
+flatten_13 (Flatten)            (None, 10)           0           batch_normalization_13[0][0]
+__________________________________________________________________________________________________
+batch_normalization_14 (BatchNo (None, 1, 10)        40          embedding_14[0][0]
+__________________________________________________________________________________________________
+concatenate_10 (Concatenate)    (None, 50)           0           concatenate_9[0][0]
+                                                                 dropout_12[0][0]
+__________________________________________________________________________________________________
+dropout_13 (Dropout)            (None, 10)           0           flatten_13[0][0]
+__________________________________________________________________________________________________
+flatten_14 (Flatten)            (None, 10)           0           batch_normalization_14[0][0]
+__________________________________________________________________________________________________
+concatenate_11 (Concatenate)    (None, 60)           0           concatenate_10[0][0]
+                                                                 dropout_13[0][0]
+__________________________________________________________________________________________________
+dropout_14 (Dropout)            (None, 10)           0           flatten_14[0][0]
+__________________________________________________________________________________________________
+concatenate_12 (Concatenate)    (None, 70)           0           concatenate_11[0][0]
+                                                                 dropout_14[0][0]
+__________________________________________________________________________________________________
+dense_2 (Dense)                 (None, 1)            71          concatenate_12[0][0]
+==================================================================================================
+Total params: 1,341
+Trainable params: 1,201
+Non-trainable params: 140
+__________________________________________________________________________________________________
+2019-12-29 08:25:32 WARNING  root  - score_cols after define is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:25:32 WARNING  root  - pred is [[0.41801068]]
+2019-12-29 08:25:32 WARNING  root  - preds[0] is [0.41801068]
+2019-12-29 08:25:32 WARNING  root  - preds[0][0] is 0.41801068
+2019-12-29 08:25:32 WARNING  root  - prepped_pd is   Route Direction  hour  year  month  daym  day  Unnamed: 7
+0    301         e     0  2018      1     1    2         NaN
+1    301         e     1  2017      1     1    2         NaN
+2019-12-29 08:25:48 WARNING  root  - in action_predict_delay_complete
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\base.py:253: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.20.3 when using version 0.20.4. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\base.py:253: UserWarning: Trying to unpickle estimator Pipeline from version 0.20.3 when using version 0.20.4. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+2019-12-29 08:25:48 WARNING  root  - score_default is {'hour': 8, 'Route': '501', 'daym': 29, 'month': 12, 'year': 2019, 'Direction': 'e', 'day': 6}
+2019-12-29 08:25:48 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:25:48 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:25:48 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   506         e    8  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:25:48 WARNING  root  - prepped_xform2 is[array([8], dtype=int64), array([9]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 08:25:48 WARNING  root  - pred is [[0.8739258]]
+127.0.0.1 - - [2019-12-29 08:25:48] "POST /webhook HTTP/1.1" 200 403 0.213327
+2019-12-29 08:26:11 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:26:11 WARNING  root  - score_default is {'hour': 8, 'Route': '501', 'daym': 29, 'month': 12, 'year': 2019, 'Direction': 'e', 'day': 6}
+2019-12-29 08:26:11 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:26:11 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:26:11 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   506         w    8  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:26:11 WARNING  root  - prepped_xform2 is[array([8], dtype=int64), array([9]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([4])]
+2019-12-29 08:26:11 WARNING  root  - pred is [[0.6580959]]
+127.0.0.1 - - [2019-12-29 08:26:11] "POST /webhook HTTP/1.1" 200 403 0.225765
+2019-12-29 08:26:20 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:26:20 WARNING  root  - score_default is {'hour': 8, 'Route': '501', 'daym': 29, 'month': 12, 'year': 2019, 'Direction': 'e', 'day': 6}
+2019-12-29 08:26:20 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:26:20 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:26:20 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   504         e    8  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:26:20 WARNING  root  - prepped_xform2 is[array([8], dtype=int64), array([7]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 08:26:20 WARNING  root  - pred is [[0.91858137]]
+127.0.0.1 - - [2019-12-29 08:26:20] "POST /webhook HTTP/1.1" 200 403 0.180376
+2019-12-29 08:26:29 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:26:30 WARNING  root  - score_default is {'hour': 8, 'Route': '501', 'daym': 29, 'month': 12, 'year': 2019, 'Direction': 'e', 'day': 6}
+2019-12-29 08:26:30 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:26:30 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:26:30 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   504         w    8  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:26:30 WARNING  root  - prepped_xform2 is[array([8], dtype=int64), array([7]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([4])]
+2019-12-29 08:26:30 WARNING  root  - pred is [[0.70275146]]
+127.0.0.1 - - [2019-12-29 08:26:30] "POST /webhook HTTP/1.1" 200 403 0.191957
+2019-12-29 08:26:41 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:26:41 WARNING  root  - score_default is {'hour': 8, 'Route': '501', 'daym': 29, 'month': 12, 'year': 2019, 'Direction': 'e', 'day': 6}
+2019-12-29 08:26:41 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:26:41 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:26:41 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   501         e    8  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:26:41 WARNING  root  - prepped_xform2 is[array([8], dtype=int64), array([4]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 08:26:41 WARNING  root  - pred is [[0.86349154]]
+127.0.0.1 - - [2019-12-29 08:26:41] "POST /webhook HTTP/1.1" 200 403 0.202046
+2019-12-29 08:26:54 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:26:54 WARNING  root  - score_default is {'hour': 8, 'Route': '501', 'daym': 29, 'month': 12, 'year': 2019, 'Direction': 'e', 'day': 6}
+2019-12-29 08:26:54 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:26:54 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:26:54 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   501         w    8  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:26:54 WARNING  root  - prepped_xform2 is[array([8], dtype=int64), array([4]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([4])]
+2019-12-29 08:26:54 WARNING  root  - pred is [[0.64766157]]
+127.0.0.1 - - [2019-12-29 08:26:54] "POST /webhook HTTP/1.1" 200 403 0.187969
+2019-12-29 08:27:06 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:27:06 WARNING  root  - score_default is {'hour': 8, 'Route': '501', 'daym': 29, 'month': 12, 'year': 2019, 'Direction': 'e', 'day': 6}
+2019-12-29 08:27:06 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:27:06 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:27:06 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   503         e    8  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:27:06 WARNING  root  - prepped_xform2 is[array([8], dtype=int64), array([6]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([1])]
+2019-12-29 08:27:06 WARNING  root  - pred is [[0.5540171]]
+127.0.0.1 - - [2019-12-29 08:27:06] "POST /webhook HTTP/1.1" 200 403 0.215991
+2019-12-29 08:27:36 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:27:36 WARNING  root  - score_default is {'hour': 8, 'Route': '501', 'daym': 29, 'month': 12, 'year': 2019, 'Direction': 'e', 'day': 6}
+2019-12-29 08:27:36 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:27:36 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:27:36 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   503         w    8  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:27:36 WARNING  root  - prepped_xform2 is[array([8], dtype=int64), array([6]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([4])]
+2019-12-29 08:27:36 WARNING  root  - pred is [[0.33818716]]
+127.0.0.1 - - [2019-12-29 08:27:36] "POST /webhook HTTP/1.1" 200 401 0.211017
+2019-12-29 08:27:51 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:27:51 WARNING  root  - score_default is {'hour': 8, 'Route': '501', 'daym': 29, 'month': 12, 'year': 2019, 'Direction': 'e', 'day': 6}
+2019-12-29 08:27:51 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:27:51 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:27:51 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   509         n    8  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:27:51 WARNING  root  - prepped_xform2 is[array([8], dtype=int64), array([10]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([2])]
+2019-12-29 08:27:51 WARNING  root  - pred is [[0.27477008]]
+127.0.0.1 - - [2019-12-29 08:27:51] "POST /webhook HTTP/1.1" 200 401 0.208774
+2019-12-29 08:28:02 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:28:02 WARNING  root  - score_default is {'hour': 8, 'Route': '501', 'daym': 29, 'month': 12, 'year': 2019, 'Direction': 'e', 'day': 6}
+2019-12-29 08:28:02 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:28:02 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:28:02 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   509         s    8  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+after transform col is  Route
+transform col is  day
+after transform col is  day
+transform col is  month
+after transform col is  month
+transform col is  year
+after transform col is  year
+transform col is  daym
+after transform col is  daym
+transform col is  Direction
+after transform col is  Direction
+cat col is hour
+cat col is Route
+cat col is day
+cat col is month
+cat col is year
+cat col is daym
+cat col is Direction
+2019-12-29 08:28:02 WARNING  root  - prepped_xform2 is[array([8], dtype=int64), array([10]), array([6], dtype=int64), array([0], dtype=int64), array([5], dtype=int64), array([28], dtype=int64), array([3])]
+2019-12-29 08:28:02 WARNING  root  - pred is [[0.26407135]]
+127.0.0.1 - - [2019-12-29 08:28:02] "POST /webhook HTTP/1.1" 200 401 0.194819
+2019-12-29 08:28:13 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:28:13 WARNING  root  - score_default is {'hour': 8, 'Route': '501', 'daym': 29, 'month': 12, 'year': 2019, 'Direction': 'e', 'day': 6}
+2019-12-29 08:28:13 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:28:13 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:28:13 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   508         e    8  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+2019-12-29 08:28:13 ERROR    rasa_sdk.endpoint  - Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\preprocessing\label.py", line 68, in _encode_python
+    encoded = np.array([table[v] for v in values])
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\preprocessing\label.py", line 68, in <listcomp>
+    encoded = np.array([table[v] for v in values])
+KeyError: '508'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\endpoint.py", line 59, in webhook
+    response = executor.run(action_call)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\executor.py", line 254, in run
+    events = action(dispatcher, tracker, domain)
+  File "C:\personal\chatbot_july_2019\streetcar_1\actions.py", line 211, in run
+    prepped_xform1 = pipeline1.transform(score_df)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\pipeline.py", line 451, in _transform
+    Xt = transform.transform(Xt)
+  File "C:\personal\chatbot_july_2019\streetcar_1\custom_classes.py", line 38, in transform
+    X[col] = self.le[col].transform(X[col])
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\preprocessing\label.py", line 257, in transform
+    _, y = _encode(y, uniques=self.classes_, encode=True)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\preprocessing\label.py", line 108, in _encode
+    return _encode_python(values, uniques, encode)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\preprocessing\label.py", line 71, in _encode_python
+    % str(e))
+ValueError: y contains previously unseen labels: '508'
+127.0.0.1 - - [2019-12-29 08:28:14] "POST /webhook HTTP/1.1" 500 411 0.232121
+2019-12-29 08:30:24 WARNING  root  - in action_predict_delay_complete
+2019-12-29 08:30:24 WARNING  root  - score_default is {'hour': 8, 'Route': '501', 'daym': 29, 'month': 12, 'year': 2019, 'Direction': 'e', 'day': 6}
+2019-12-29 08:30:24 WARNING  root  - score_cols is ['Route', 'Direction', 'hour', 'year', 'month', 'daym', 'day']
+2019-12-29 08:30:24 WARNING  root  - score_df before load is Empty DataFrame
+Columns: [Route, Direction, hour, year, month, daym, day]
+Index: []
+2019-12-29 08:30:24 WARNING  root  - score_df after load is   Route Direction hour  year month daym day
+0   508         e    8  2019     1   29   6
+fill empty xform
+transform col is  hour
+after transform col is  hour
+transform col is  Route
+2019-12-29 08:30:24 ERROR    rasa_sdk.endpoint  - Exception on /webhook [POST]
+Traceback (most recent call last):
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\preprocessing\label.py", line 68, in _encode_python
+    encoded = np.array([table[v] for v in values])
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\preprocessing\label.py", line 68, in <listcomp>
+    encoded = np.array([table[v] for v in values])
+KeyError: '508'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\flask_cors\decorator.py", line 128, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\endpoint.py", line 59, in webhook
+    response = executor.run(action_call)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\rasa_sdk\executor.py", line 254, in run
+    events = action(dispatcher, tracker, domain)
+  File "C:\personal\chatbot_july_2019\streetcar_1\actions.py", line 211, in run
+    prepped_xform1 = pipeline1.transform(score_df)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\pipeline.py", line 451, in _transform
+    Xt = transform.transform(Xt)
+  File "C:\personal\chatbot_july_2019\streetcar_1\custom_classes.py", line 38, in transform
+    X[col] = self.le[col].transform(X[col])
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\preprocessing\label.py", line 257, in transform
+    _, y = _encode(y, uniques=self.classes_, encode=True)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\preprocessing\label.py", line 108, in _encode
+    return _encode_python(values, uniques, encode)
+  File "c:\users\ryanm\appdata\local\programs\python\python37\lib\site-packages\sklearn\preprocessing\label.py", line 71, in _encode_python
+    % str(e))
+ValueError: y contains previously unseen labels: '508'
+127.0.0.1 - - [2019-12-29 08:30:24] "POST /webhook HTTP/1.1" 500 411 0.131294
