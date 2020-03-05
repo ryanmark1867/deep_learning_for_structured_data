@@ -1,0 +1,8 @@
+general:
+   load_from_scratch: False
+   save_transformed_dataframe: True
+   remove_bad_values: True
+file_names:
+   pickled_input_dataframe: 2014_2019_upto_june.pkl
+   pickled_output_dataframe: 2014_2019_df_cleaned_remove_bad_oct18.pkl
+   
