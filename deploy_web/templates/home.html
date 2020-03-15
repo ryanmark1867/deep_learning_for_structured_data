@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample deployment site</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main2.css') }}">
+  </head>
+<body>
+<!-- localhost:5000 -->
+<div class="home">
+<h1> {{ title.titlename }} </h1>
+<form action="/test-link/">
+            <input type="submit" value="Click me" />
+        </form>
+        
+        <button> <a href="/test-link/">Click me</a></button>
+
+<p> <b>Test:</b> 
+
+</p>
+</div>
+</body>
+</html>
