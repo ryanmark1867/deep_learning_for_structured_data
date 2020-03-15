@@ -1,6 +1,5 @@
 # This files contains the custom actions related to the Rasa model for the streetcar delay prediction project
 
-# common import block
 # common imports
 from typing import Any, Text, Dict, List
 #
@@ -62,34 +61,57 @@ from datetime import datetime
 import logging
 import yaml
 
-# block to read in key parameters
+# load config file
+current_path = os.getcwd()
+print("current directory is: "+current_path)
 
-'''
-path_to_yaml
-try: 
-    with open (path_to_yaml, 'r') as file:
-    config = yaml.safe_load(file)
+# load config gile
+path_to_yaml = os.path.join(current_path, 'deploy_config.yml')
+print("path_to_yaml "+path_to_yaml)
+try:
+    with open (path_to_yaml, 'r') as c_file:
+        config = yaml.safe_load(c_file)
 except Exception as e:
     print('Error reading the config file')
-'''
 
-# main code block
-
-logging.getLogger().setLevel(logging.WARNING)
-logging.warning("logging check")
 
 # paths for model and pipeline files
+pipeline1_filename = config['file_names']['pipeline1_filename']
+pipeline2_filename =  config['file_names']['pipeline2_filename']
+model_filename =  config['file_names']['model_filename']
 
-deploy_path = 'C:\personal\chatbot_july_2019\streetcar_1\\'
-model_path = deploy_path+'keras_models\scmodeldec27b_5.h5'
-pipeline1_path = deploy_path+'pipelines\sc_delay_pipeline_dec27b.pkl'
-pipeline2_path = deploy_path+'pipelines\sc_delay_pipeline_keras_prep_dec27b.pkl'
+# other parms
+debug_on = config['general']['debug_on']
+logging_level = config['general']['logging_level']
+
+# set logging level
+logging_level_set = logging.WARNING
+if logging_level == 'WARNING':
+    logging_level_set = logging.WARNING
+if logging_level == 'ERROR':
+    logging_level_set = logging.ERROR
+if logging_level == 'DEBUG':
+    logging_level_set = logging.DEBUG
+if logging_level == 'INFO':
+    logging_level_set = logging.INFO   
+logging.getLogger().setLevel(logging_level_set)
+logging.warning("logging check - beginning of logging")
+
+def get_path(subpath):
+    rawpath = os.getcwd()
+    # data is in a directory called "data" that is a sibling to the directory containing the notebook
+    path = os.path.abspath(os.path.join(rawpath, '..', subpath))
+    return(path)
+
+# get complete paths for pipelines and Keras models
+pipeline_path = get_path('pipelines')
+
+pipeline1_path = os.path.join(pipeline_path,pipeline1_filename)
+pipeline2_path = os.path.join(pipeline_path,pipeline2_filename)
+model_path = os.path.join(get_path('models'),model_filename)
 
 
-prepped_data_path = deploy_path+'input_sample_data\prepped_dec27.csv'
-
-debug_on = False
-
+# load the Keras model
 loaded_model = load_model(model_path)
 loaded_model.summary()
 # moved pipeline definitions to custom action class
@@ -106,26 +128,8 @@ score_sample['month'] = np.array([0])
 score_sample['year'] = np.array([5])
 score_sample['Direction'] = np.array([1])
 score_sample['day'] = np.array([1])
-# X_test  {'hour': array([18,  4, 11, ...,  2, 23, 17]), 'Route': array([ 0, 12,  2, ..., 10, 12,  2]), 'daym': array([21, 16, 10, ..., 12, 26,  6]),
- #   'month': array([0, 1, 0, ..., 6, 2, 1]), 'year': array([5, 2, 3, ..., 1, 4, 3]), 'Direction': array([1, 1, 4, ..., 2, 3, 0]),
+
  #  'day': array([1, 2, 2, ..., 0, 1, 1])}
-
-'''
->>> from datetime import datetime
-
->>> now = datetime.now()
->>> now.day
-28
->>> now.hour
-15
->>> now.month
-12
->>> now.weekday()
-5
->>> 
-
-
-'''
 
 
 # dictionary of default values
@@ -143,9 +147,6 @@ logging.warning("score_cols after define is "+str(score_cols))
 
 
 
-
-
-
 preds = loaded_model.predict(score_sample, batch_size=BATCH_SIZE)
 logging.warning("pred is "+str(preds))
 
@@ -154,20 +155,7 @@ logging.warning("preds[0][0] is "+str(preds[0][0]))
 
 # example using pipeline on prepped data
 # routedirection_frame = pd.read_csv(path+"routedirection.csv")
-prepped_pd = pd.read_csv(prepped_data_path)
-logging.warning("prepped_pd is"+str(prepped_pd))
-'''
-logging.warning("prepped_pd is"+str(prepped_pd))
-prepped_xform1 = pipeline1.transform(prepped_pd)
-prepped_xform2 = pipeline2.transform(prepped_xform1)
-logging.warning("prepped_xform2 is"+str(prepped_xform2))
 
-pred2 = loaded_model.predict(prepped_xform2, batch_size=BATCH_SIZE)
-logging.warning("pred2 is "+str(pred2))
-
-logging.warning("pred2[0] is "+str(pred2[0]))
-logging.warning("pred2[0][0] is "+str(pred2[0][0]))
-'''
 
 class ActionPredictDelay(Action):
 
