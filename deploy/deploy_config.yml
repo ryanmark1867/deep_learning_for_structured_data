@@ -1,6 +1,7 @@
 general:
    debug_on: False
    logging_level: "WARNING" # switch to control logging - WARNING for full logging; ERROR to minimize logging
+   BATCH_SIZE: 1000
 file_names:
    pipeline1_filename: sc_delay_pipeline_dec27b.pkl
    pipeline2_filename: sc_delay_pipeline_keras_prep_dec27b.pkl

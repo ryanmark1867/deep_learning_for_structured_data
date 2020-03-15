@@ -82,6 +82,7 @@ model_filename =  config['file_names']['model_filename']
 # other parms
 debug_on = config['general']['debug_on']
 logging_level = config['general']['logging_level']
+BATCH_SIZE = config['general']['BATCH_SIZE']
 
 # set logging level
 logging_level_set = logging.WARNING
@@ -116,7 +117,7 @@ loaded_model.summary()
 # moved pipeline definitions to custom action class
 #pipeline1 = load(open(pipeline1_path, 'rb'))
 #pipeline2 = load(open(pipeline2_path, 'rb'))
-BATCH_SIZE = 1000
+
 
 # brute force a scoring sample, bagged from test set
 score_sample = {}
