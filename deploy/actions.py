@@ -61,11 +61,10 @@ from datetime import datetime
 import logging
 import yaml
 
-# load config file
+# load config gile
 current_path = os.getcwd()
 print("current directory is: "+current_path)
 
-# load config gile
 path_to_yaml = os.path.join(current_path, 'deploy_config.yml')
 print("path_to_yaml "+path_to_yaml)
 try:
