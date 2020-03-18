@@ -1,22 +1,79 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Sample deployment site</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/main2.css') }}">
-  </head>
-<body>
-<!-- localhost:5000 -->
-<div class="home">
-<h1> {{ title.titlename }} </h1>
-<form action="/test-link/">
-            <input type="submit" value="Click me" />
-        </form>
-        
-        <button> <a href="/test-link/">Click me</a></button>
+<!DOCTYPE html> 
+<head> 
+	<title> 
+		How to get selected value in 
+		dropdown list using JavaScript? 
+	</title> 
+</head> 
 
-<p> <b>Test:</b> 
+<body> 
+	<h1 style="color: green"> 
+		Please select the details for your streetcar trip
+	</h1> 
+	
+<!--	<b> 
+		How to get selected value in 
+		dropdown list using JavaScript? 
+	</b> -->
+	
+	<p> 
+		Select the route of your trip: 
+		<select id="route"> 
+			<option value="501">501 / Queen</option> 
+			<option value="502">502 / Downtowner</option> 
+			<option value="503">503 / Kingston Rd</option> 
+			<option value="504">504 / King</option> 
+			<option value="505">505 / Dundas</option> 
+			<option value="506">506 / Carlton</option> 
+			<option value="510">510 / Spadina</option> 
+			<option value="511">511 / Bathurst</option> 
+			<option value="512">512 / St Clair</option> 
+			<option value="301">301 / Queen (night)</option> 
+			<option value="304">304 / King (night)</option> 
+			<option value="306">306 / Carlton (night)</option> 
+			<option value="310">310 / Spadina (night)</option> 
+		</select> 
+	</p> 
+	
+	<p> 
+		The value of the option selected is: 
+		<span class="output"></span> 
+	</p> 
+	
+	<button onclick="getOption()"> 
+		Check option 
+	</button> 
+	
+	<script type="text/javascript">s 
+		function getOption() { 
+			selectElement = document.querySelector('#route'); 
+					
+			output = 
+			selectElement.options[selectElement.selectedIndex].value; 
 
-</p>
-</div>
-</body>
-</html>
+			document.querySelector('.output').textContent = output; 
+		} 
+	</script> 
+</body> 
+
+<!--
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">501 / Queen</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">502 / Downtowner</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">503 / Kingston Rd</a></li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">504 / King</a></li>  
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">505 / Dundas</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">506 / Carlton</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">509 / Harbourfront</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">510 / Spadina</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">511 / Bathurst</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">512 / St Clair</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">301 / Queen (night)</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">304 / King (night)</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">306 / Carlton (night)</a></li>
+	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">310 / Spadina (night)</a></li>	
+	
+	-->
+
+
+</html>					 
