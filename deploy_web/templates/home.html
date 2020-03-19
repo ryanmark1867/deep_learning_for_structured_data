@@ -8,7 +8,7 @@
 
 <body> 
 	<h1 style="color: green"> 
-		Please select the details for your streetcar trip
+		Please select the details for your streetcar trip Mar 19
 	</h1> 
 	
 <!--	<b> 
@@ -34,7 +34,80 @@
 			<option value="310">310 / Spadina (night)</option> 
 		</select> 
 	</p> 
-	
+	<p> 
+		Select the direction of your trip: 
+		<select id="direction"> 
+			<option value="e">Eastbound</option> 
+			<option value="w">Westbound</option> 
+			<option value="n">Northbound</option> 
+			<option value="s">Southbound</option> 
+		</select> 
+	</p>
+	<p> 
+		Select the year of your trip: 
+		<select id="year"> 
+			<option value="e">Eastbound</option> 
+			<option value="w">Westbound</option> 
+			<option value="n">Northbound</option> 
+			<option value="s">Southbound</option> 
+		</select> 
+	</p>
+	<p> 
+		Select the month of your trip: 
+		<select id="month"> 
+			<option value="e">Eastbound</option> 
+			<option value="w">Westbound</option> 
+			<option value="n">Northbound</option> 
+			<option value="s">Southbound</option> 
+		</select> 
+	</p>
+	<p> 
+		Select the day of the month of your trip: 
+		<select id="daym"> 
+			<option value="e">Eastbound</option> 
+			<option value="w">Westbound</option> 
+			<option value="n">Northbound</option> 
+			<option value="s">Southbound</option> 
+		</select> 
+	</p>
+	<p> 
+		Select the day of your trip: 
+		<select id="daym"> 
+			<option value="Sunday">Sunday</option> 
+			<option value="w">Westbound</option> 
+			<option value="n">Northbound</option> 
+			<option value="s">Southbound</option> 
+		</select> 
+	</p>
+	<p> 
+		Select the hour of your trip: 
+		<select id="daym"> 
+			<option value="0">Eastbound</option> 
+			<option value="1">Westbound</option> 
+			<option value="2">Northbound</option> 
+			<option value="3">Southbound</option>
+			<option value="4">Eastbound</option> 
+			<option value="5">Westbound</option> 
+			<option value="6">Northbound</option> 
+			<option value="7">Southbound</option>
+			<option value="8">Eastbound</option> 
+			<option value="9">Westbound</option> 
+			<option value="10">Northbound</option> 
+			<option value="11">Southbound</option>
+			<option value="12">Eastbound</option> 
+			<option value="13">Westbound</option> 
+			<option value="14">Northbound</option> 
+			<option value="15">Southbound</option>
+			<option value="16">Northbound</option> 
+			<option value="17">Southbound</option>
+			<option value="18">Eastbound</option> 
+			<option value="19">Westbound</option> 
+			<option value="20">Northbound</option> 
+			<option value="21">Southbound</option>
+			<option value="22">Eastbound</option> 
+			<option value="23">Westbound</option> 
+		</select> 
+	</p>
 	<p> 
 		The value of the option selected is: 
 		<span class="output"></span> 
@@ -44,36 +117,24 @@
 		Check option 
 	</button> 
 	
-	<script type="text/javascript">s 
+	<script type="text/javascript"> 
 		function getOption() { 
-			selectElement = document.querySelector('#route'); 
+			selectElementRoute = document.querySelector('#route'); 
+			selectElementDirection = document.querySelector('#direction');
 					
-			output = 
-			selectElement.options[selectElement.selectedIndex].value; 
+			//output = 
+			//selectElement.options[selectElement.selectedIndex].value; 
+			route_string = selectElementRoute.options[selectElementRoute.selectedIndex].value
+			direction_string = selectElementDirection.options[selectElementDirection.selectedIndex].value
+			output = route_string.concat(" ",direction_string)
+			//output = concat(selectElementRoute.options[selectElementRoute.selectedIndex].value," ",selectElementDirection.options[selectElementDirection.selectedIndex].value)
 
 			document.querySelector('.output').textContent = output; 
 		} 
 	</script> 
 </body> 
 
-<!--
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">501 / Queen</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">502 / Downtowner</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">503 / Kingston Rd</a></li>
-      <li role="presentation" class="divider"></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">504 / King</a></li>  
-	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">505 / Dundas</a></li>
-	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">506 / Carlton</a></li>
-	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">509 / Harbourfront</a></li>
-	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">510 / Spadina</a></li>
-	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">511 / Bathurst</a></li>
-	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">512 / St Clair</a></li>
-	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">301 / Queen (night)</a></li>
-	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">304 / King (night)</a></li>
-	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">306 / Carlton (night)</a></li>
-	<li role="presentation"><a role="menuitem" tabindex="-1" href="#">310 / Spadina (night)</a></li>	
-	
-	-->
+
 
 
 </html>					 
