@@ -106,6 +106,9 @@ score_sample['year'] = np.array([5])
 score_sample['Direction'] = np.array([1])
 score_sample['day'] = np.array([1])
 
+# columns that are required for scoring
+score_cols = ['Route','Direction','hour','year','month','daym','day']
+
 
 
 
@@ -144,22 +147,50 @@ def homepage():
 def about():
     print("I got tested")
     # /test-link/?route=501&direction=e&year=2019&month=1&daym=1&day=6&hour=5
-    route = request.args.get('route')
-    direction = request.args.get('direction')
-    year = request.args.get('year')
-    month = request.args.get('month')
-    daym = request.args.get('daym')
-    day = request.args.get('day')
-    hour = request.args.get('hour')
-    logging.warning("url payload is route: "+route+",direction: "+direction+",year: "+year+",month: "+month+",daym: "+daym+",day: "+day+", hour: "+hour)
+    # score_cols = ['Route','Direction','hour','year','month','daym','day']
+    #
+    # load the parameter values into a dictionary indexed by the column names expected by the pipelines
+    score_values_dict = {}
+    score_values_dict['Route'] = request.args.get('route')
+    score_values_dict['Direction'] = request.args.get('direction')
+    score_values_dict['year'] = int(request.args.get('year'))
+    score_values_dict['month'] = int(request.args.get('month'))
+    score_values_dict['daym'] = int(request.args.get('daym'))
+    score_values_dict['day'] = int(request.args.get('day'))
+    score_values_dict['hour'] = int(request.args.get('hour'))
+    # echo the parameter values
+    for value in score_values_dict:
+        logging.warning("value for "+value+" is: "+str(score_values_dict[value]))
+    #logging.warning("url payload is route: "+route+",direction: "+direction+",year: "+year+",month: "+month+",daym: "+daym+",day: "+day+", hour: "+hour)
     loaded_model = load_model(model_path)
     loaded_model._make_predict_function()
-    preds = loaded_model.predict(score_sample, batch_size=BATCH_SIZE)
-    logging.warning("pred is "+str(preds))
-    logging.warning("preds[0] is "+str(preds[0]))
-    logging.warning("preds[0][0] is "+str(preds[0][0]))
-    print("here is a prediction "+str(preds[0][0]))
-    return "here is a prediction "+str(preds[0][0])
+    logging.warning("DISPLAY PRED: model loaded")
+    pipeline1 = load(open(pipeline1_path, 'rb'))
+    pipeline2 = load(open(pipeline2_path, 'rb'))
+    logging.warning("DISPLAY PRED: pipelines loaded")
+    # get prediction on canned value
+    # preds = loaded_model.predict(score_sample, batch_size=BATCH_SIZE)
+    score_current = {}
+    now = datetime.now()
+    # create and load dataframe that will be fed into pipeline
+    score_df = pd.DataFrame(columns=score_cols)
+    logging.warning("score_df before load is "+str(score_df))
+    for col in score_cols:
+        score_df.at[0,col] = score_values_dict[col]
+    prepped_xform1 = pipeline1.transform(score_df)
+    prepped_xform2 = pipeline2.transform(prepped_xform1)
+    print("prepped_xform2 is ",prepped_xform2)
+    pred = loaded_model.predict(prepped_xform2, batch_size=BATCH_SIZE)
+    logging.warning("pred is "+str(pred))
+    if pred[0][0] >= 0.5:
+        predict_string = "yes, delay predicted"
+    else:
+        predict_string = "no delay predicted"
+    #logging.warning("pred is "+str(preds))
+    #logging.warning("preds[0] is "+str(preds[0]))
+    #logging.warning("preds[0][0] is "+str(preds[0][0]))
+    #print("here is a prediction "+str(preds[0][0]))
+    return "Delay prediction is: "+predict_string
 
 
 
