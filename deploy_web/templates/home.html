@@ -8,9 +8,9 @@
 
 <body> 
 	<h1 style="color: green"> 
-		Please select the details for your streetcar trip Mar 19
+		Please select the details for your streetcar trip Mar 19b
 	</h1> 
-	
+
 <!--	<b> 
 		How to get selected value in 
 		dropdown list using JavaScript? 
@@ -46,66 +46,109 @@
 	<p> 
 		Select the year of your trip: 
 		<select id="year"> 
-			<option value="e">Eastbound</option> 
-			<option value="w">Westbound</option> 
-			<option value="n">Northbound</option> 
-			<option value="s">Southbound</option> 
+			<!-- TODO correct this once training has happened with some 2020 values -->
+			<option value="2019">2020</option> 
+			<option value="2019">2019</option> 
+			<option value="2018">2018</option> 
+			<option value="2017">2017</option> 
+			<option value="2016">2016</option> 
+			<option value="2015">2015</option> 
+			<option value="2014">2014</option> 
 		</select> 
 	</p>
 	<p> 
 		Select the month of your trip: 
 		<select id="month"> 
-			<option value="e">Eastbound</option> 
-			<option value="w">Westbound</option> 
-			<option value="n">Northbound</option> 
-			<option value="s">Southbound</option> 
+			<option value="1">January</option> 
+			<option value="2">February</option> 
+			<option value="3">March</option> 
+			<option value="4">April</option> 
+			<option value="5">May</option>
+			<option value="6">June</option>
+			<option value="7">July</option>
+			<option value="8">August</option>
+			<option value="9">September</option>
+			<option value="10">October</option>
+			<option value="11">November</option>
+			<option value="12">December</option>
 		</select> 
 	</p>
 	<p> 
 		Select the day of the month of your trip: 
 		<select id="daym"> 
-			<option value="e">Eastbound</option> 
-			<option value="w">Westbound</option> 
-			<option value="n">Northbound</option> 
-			<option value="s">Southbound</option> 
+			<option value="1">1</option> 
+			<option value="2">2</option> 
+			<option value="3">3</option> 
+			<option value="4">4</option> 
+			<option value="5">5</option> 
+			<option value="6">6</option> 
+			<option value="7">7</option> 
+			<option value="8">8</option> 
+			<option value="9">9</option> 
+			<option value="10">10</option>
+			<option value="11">11</option> 
+			<option value="12">12</option> 
+			<option value="13">13</option> 
+			<option value="14">14</option> 
+			<option value="15">15</option> 
+			<option value="16">16</option> 
+			<option value="17">17</option> 
+			<option value="18">18</option> 
+			<option value="19">19</option> 
+			<option value="20">20</option>
+			<option value="21">21</option> 
+			<option value="22">22</option> 
+			<option value="23">23</option> 
+			<option value="24">24</option> 
+			<option value="25">25</option> 
+			<option value="26">26</option> 
+			<option value="27">27</option> 
+			<option value="28">28</option> 
+			<option value="29">29</option> 
+			<option value="30">30</option>				
+			<option value="31">31</option> 
 		</select> 
 	</p>
 	<p> 
 		Select the day of your trip: 
-		<select id="daym"> 
-			<option value="Sunday">Sunday</option> 
-			<option value="w">Westbound</option> 
-			<option value="n">Northbound</option> 
-			<option value="s">Southbound</option> 
+		<!-- Monday is zero in Python weekday function https://docs.python.org/2/library/datetime.html -->
+		<select id="day"> 
+			<option value="6">Sunday</option> 
+			<option value="0">Monday</option> 
+			<option value="1">Tuesday</option> 
+			<option value="2">Wednesday</option> 
+			<option value="3">Thursday</option>
+			<option value="4">Friday</option>
+			<option value="5">Saturday</option>
 		</select> 
 	</p>
 	<p> 
 		Select the hour of your trip: 
-		<select id="daym"> 
-			<option value="0">Eastbound</option> 
-			<option value="1">Westbound</option> 
-			<option value="2">Northbound</option> 
-			<option value="3">Southbound</option>
-			<option value="4">Eastbound</option> 
-			<option value="5">Westbound</option> 
-			<option value="6">Northbound</option> 
-			<option value="7">Southbound</option>
-			<option value="8">Eastbound</option> 
-			<option value="9">Westbound</option> 
-			<option value="10">Northbound</option> 
-			<option value="11">Southbound</option>
-			<option value="12">Eastbound</option> 
-			<option value="13">Westbound</option> 
-			<option value="14">Northbound</option> 
-			<option value="15">Southbound</option>
-			<option value="16">Northbound</option> 
-			<option value="17">Southbound</option>
-			<option value="18">Eastbound</option> 
-			<option value="19">Westbound</option> 
-			<option value="20">Northbound</option> 
-			<option value="21">Southbound</option>
-			<option value="22">Eastbound</option> 
-			<option value="23">Westbound</option> 
+		<select id="hour"> 
+			<option value="5">5:00 am - 6:00 am</option> 
+			<option value="6">6:00 am - 7:00 am</option> 
+			<option value="7">7:00 am - 8:00 am</option>
+			<option value="8">8:00 am - 9:00 am</option> 
+			<option value="9">9:00 am - 10:00 am</option> 
+			<option value="10">10:00 am - 11:00 am</option> 
+			<option value="11">11:00 am - noon</option>
+			<option value="12">noon - 1:00 pm</option> 
+			<option value="13">1:00 pm - 2:00 pm</option> 
+			<option value="14">2:00 pm - 3:00 pm</option> 
+			<option value="15">3:00 pm - 4:00 pm</option>
+			<option value="16">4:00 pm - 5:00 pm</option> 
+			<option value="17">5:00 pm - 6:00 pm</option>
+			<option value="18">6:00 pm - 7:00 pm</option> 
+			<option value="19">7:00 pm - 8:00 pm</option> 
+			<option value="20">8:00 pm - 9:00 pm</option> 
+			<option value="21">9:00 pm - 10:00 pm</option>
+			<option value="22">10:00 pm - 11:00 pm</option> 
+			<option value="23">11:00 pm - midnight</option> 
+			<option value="0">midnight - 1:00 am</option> 
+			<option value="1">1:00 am - 2:00 am</option> 
+			<option value="2">2:00 am - 3:00 am</option> 
+			<option value="3">3:00 am - 4:00 am</option>
+			<option value="4">4:00 am - 5:00 am</option> 
 		</select> 
 	</p>
 	<p> 
@@ -113,25 +156,69 @@
 		<span class="output"></span> 
 	</p> 
 	
+	<p>
+	<a onclick="link_with_args();">Get prediction</a>
+	</p>
+	
+	<!--
 	<button onclick="getOption()"> 
-		Check option 
+		 <a href="link_with_args();">Get prediction</a> 
+	</button>
+	-->
+
+
+
+	<button onclick="getOption()"> 
+		Check payload string 
 	</button> 
+	
+	<!-- 
+	<h1> {{ title.titlename }} </h1>
+<form action="/test-link/">
+            <input type="submit" value="Click me" />
+        </form>
+        
+        <button> <a href="/test-link/">Click me</a></button>
+
+<p> <b>Test:</b> 
+
+</p>
+	-->
 	
 	<script type="text/javascript"> 
 		function getOption() { 
 			selectElementRoute = document.querySelector('#route'); 
 			selectElementDirection = document.querySelector('#direction');
+			selectElementYear = document.querySelector('#year');
+			selectElementMonth = document.querySelector('#month');
+			selectElementDaym = document.querySelector('#daym');
+			selectElementDay = document.querySelector('#day');
+			selectElementHour = document.querySelector('#hour');			
 					
 			//output = 
 			//selectElement.options[selectElement.selectedIndex].value; 
 			route_string = selectElementRoute.options[selectElementRoute.selectedIndex].value
 			direction_string = selectElementDirection.options[selectElementDirection.selectedIndex].value
-			output = route_string.concat(" ",direction_string)
+			year_string = selectElementYear.options[selectElementYear.selectedIndex].value
+			month_string = selectElementMonth.options[selectElementMonth.selectedIndex].value
+			daym_string = selectElementDaym.options[selectElementDaym.selectedIndex].value
+			day_string = selectElementDay.options[selectElementDay.selectedIndex].value
+			hour_string = selectElementHour.options[selectElementHour.selectedIndex].value
+			// output = route_string.concat(" direction: ",direction_string,", year: ",year_string,", month: ",month_string,", day of month: ",daym_string,", day: ",day_string,", hour: ",hour_string)
 			//output = concat(selectElementRoute.options[selectElementRoute.selectedIndex].value," ",selectElementDirection.options[selectElementDirection.selectedIndex].value)
-
-			document.querySelector('.output').textContent = output; 
+			//target_URL_suffix = "?image="+config['images'][province]+"&description="+config['descriptions'][province]+"&province="+province
+			suffix = "/test-link/?"
+			window.output = suffix.concat("route=",route_string,"&direction=",direction_string,"&year=",year_string,"&month=",month_string,"&daym=",daym_string,"&day=",day_string,"&hour=",hour_string)
+			document.querySelector('.output').textContent = window.output; 
 		} 
 	</script> 
+	<script>
+	function link_with_args(){	
+	console.log("in link_with_args");
+	console.log(window.output);
+	window.location.href = window.output;
+	}		
+	</script>
 </body> 
 
 

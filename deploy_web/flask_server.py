@@ -143,6 +143,15 @@ def homepage():
 @app.route('/test-link/')
 def about():
     print("I got tested")
+    # /test-link/?route=501&direction=e&year=2019&month=1&daym=1&day=6&hour=5
+    route = request.args.get('route')
+    direction = request.args.get('direction')
+    year = request.args.get('year')
+    month = request.args.get('month')
+    daym = request.args.get('daym')
+    day = request.args.get('day')
+    hour = request.args.get('hour')
+    logging.warning("url payload is route: "+route+",direction: "+direction+",year: "+year+",month: "+month+",daym: "+daym+",day: "+day+", hour: "+hour)
     loaded_model = load_model(model_path)
     loaded_model._make_predict_function()
     preds = loaded_model.predict(score_sample, batch_size=BATCH_SIZE)
