@@ -4,11 +4,12 @@
 		How to get selected value in 
 		dropdown list using JavaScript? 
 	</title> 
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 </head> 
 
 <body> 
 	<h1 style="color: green"> 
-		Please select the details for your streetcar trip Mar 19b
+		Please select the details for your streetcar trip
 	</h1> 
 
 <!--	<b> 
@@ -151,20 +152,27 @@
 			<option value="4">4:00 am - 5:00 am</option> 
 		</select> 
 	</p>
+
+	
+	<button>
+	<a onclick="link_with_args();">Get prediction</a>
+	</button>
+	
 	<p> 
 		The value of the option selected is: 
 		<span class="output"></span> 
 	</p> 
 	
+	<!--
 	<p>
+	this worked
 	<a onclick="link_with_args();">Get prediction</a>
 	</p>
 	
-	<!--
 	<button onclick="getOption()"> 
 		 <a href="link_with_args();">Get prediction</a> 
 	</button>
-	-->
+	
 
 
 
@@ -172,7 +180,7 @@
 		Check payload string 
 	</button> 
 	
-	<!-- 
+	
 	<h1> {{ title.titlename }} </h1>
 <form action="/test-link/">
             <input type="submit" value="Click me" />
@@ -207,13 +215,15 @@
 			// output = route_string.concat(" direction: ",direction_string,", year: ",year_string,", month: ",month_string,", day of month: ",daym_string,", day: ",day_string,", hour: ",hour_string)
 			//output = concat(selectElementRoute.options[selectElementRoute.selectedIndex].value," ",selectElementDirection.options[selectElementDirection.selectedIndex].value)
 			//target_URL_suffix = "?image="+config['images'][province]+"&description="+config['descriptions'][province]+"&province="+province
-			suffix = "/test-link/?"
+			//suffix = "/test-link/?"
+			suffix = "/show-prediction/?"
 			window.output = suffix.concat("route=",route_string,"&direction=",direction_string,"&year=",year_string,"&month=",month_string,"&daym=",daym_string,"&day=",day_string,"&hour=",hour_string)
 			document.querySelector('.output').textContent = window.output; 
 		} 
 	</script> 
 	<script>
-	function link_with_args(){	
+	function link_with_args(){
+	getOption();	
 	console.log("in link_with_args");
 	console.log(window.output);
 	window.location.href = window.output;

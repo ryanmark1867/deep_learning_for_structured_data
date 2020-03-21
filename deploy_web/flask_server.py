@@ -124,26 +124,15 @@ HTML_TEMPLATE = Template("""
 
 
 @app.route('/')
-def homepage():   
-    graphic_example = "https://raw.githubusercontent.com/ryanmark1867/webview_rasa_example/master/media/Flag_of_Ontario.svg"
-    '''
-    image_URL = request.args.get('image')
-    description_text = request.args.get('description')
-    province = request.args.get('province')
-    print("image_URL is "+str(image_URL))
-    print("province is "+str(province))
-    title_text = "Flag of "+province
-    title = {'titlename':title_text}
-    image = {'graphicname':image_URL}
-    description = {'descriptionname':description_text}
-    return render_template('home.html',title=title,image = image,description=description)
-    '''
+def home():   
+
     title_text = "Test title"
     title = {'titlename':title_text}
     return render_template('home.html',title=title)
-    #return """<h1>Test of web page Feb 9 night</h1>"""
+ 
     
-@app.route('/test-link/')
+#@app.route('/test-link/')
+@app.route('/show-prediction/')
 def about():
     print("I got tested")
     # /test-link/?route=501&direction=e&year=2019&month=1&daym=1&day=6&hour=5
@@ -190,7 +179,9 @@ def about():
     #logging.warning("preds[0] is "+str(preds[0]))
     #logging.warning("preds[0][0] is "+str(preds[0][0]))
     #print("here is a prediction "+str(preds[0][0]))
-    return "Delay prediction is: "+predict_string
+    prediction = {'prediction_key':predict_string}
+    return(render_template('show-prediction.html',prediction=prediction))
+    # return "Delay prediction is: "+predict_string
 
 
 

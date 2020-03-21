@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<head> 
+	<title> 
+		Page for showing prediction 
+	</title> 
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head> 
+
+<body> 
+	<h1 style="color: green"> 
+		Here is the prediction for your streetcar trip: {{ prediction.prediction_key }}
+	</h1> 
+
+<!--	<b> 
+		How to get selected value in 
+		dropdown list using JavaScript? 
+	</b> -->
+	
+
+	<form action="{{ url_for('home') }}">>
+		<input type="submit" value="Get another prediction" />
+	</form>
+	
+
+
+</body> 
+
+
+
+
+</html>					 
