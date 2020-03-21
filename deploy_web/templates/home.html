@@ -4,19 +4,15 @@
 		How to get selected value in 
 		dropdown list using JavaScript? 
 	</title> 
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main2.css') }}">
 </head> 
 
-<body> 
+<body>
+<div class="home"> 
 	<h1 style="color: green"> 
 		Please select the details for your streetcar trip
 	</h1> 
 
-<!--	<b> 
-		How to get selected value in 
-		dropdown list using JavaScript? 
-	</b> -->
-	
 	<p> 
 		Select the route of your trip: 
 		<select id="route"> 
@@ -126,6 +122,7 @@
 	<p> 
 		Select the hour of your trip: 
 		<select id="hour"> 
+			<optgroup>
 			<option value="5">5:00 am - 6:00 am</option> 
 			<option value="6">6:00 am - 7:00 am</option> 
 			<option value="7">7:00 am - 8:00 am</option>
@@ -150,12 +147,13 @@
 			<option value="2">2:00 am - 3:00 am</option> 
 			<option value="3">3:00 am - 4:00 am</option>
 			<option value="4">4:00 am - 5:00 am</option> 
+			</optgroup>
 		</select> 
 	</p>
-
+	
 	
 	<button>
-	<a onclick="link_with_args();">Get prediction</a>
+	<a onclick="link_with_args();" style="font-size : 20px; width: 100%; height: 100px;">Get prediction</a>
 	</button>
 	
 	<p> 
@@ -163,35 +161,7 @@
 		<span class="output"></span> 
 	</p> 
 	
-	<!--
-	<p>
-	this worked
-	<a onclick="link_with_args();">Get prediction</a>
-	</p>
-	
-	<button onclick="getOption()"> 
-		 <a href="link_with_args();">Get prediction</a> 
-	</button>
-	
 
-
-
-	<button onclick="getOption()"> 
-		Check payload string 
-	</button> 
-	
-	
-	<h1> {{ title.titlename }} </h1>
-<form action="/test-link/">
-            <input type="submit" value="Click me" />
-        </form>
-        
-        <button> <a href="/test-link/">Click me</a></button>
-
-<p> <b>Test:</b> 
-
-</p>
-	-->
 	
 	<script type="text/javascript"> 
 		function getOption() { 
@@ -229,6 +199,7 @@
 	window.location.href = window.output;
 	}		
 	</script>
+</div>
 </body> 
 
 

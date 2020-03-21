@@ -3,26 +3,25 @@
 	<title> 
 		Page for showing prediction 
 	</title> 
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main2.css') }}">
 </head> 
 
 <body> 
+<div class="home">
 	<h1 style="color: green"> 
-		Here is the prediction for your streetcar trip: {{ prediction.prediction_key }}
+		Here is the prediction for your streetcar trip:
 	</h1> 
+	<h1 style="color: green"> 
+		{{ prediction.prediction_key }}
+	</h1>
 
-<!--	<b> 
-		How to get selected value in 
-		dropdown list using JavaScript? 
-	</b> -->
 	
 
-	<form action="{{ url_for('home') }}">>
-		<input type="submit" value="Get another prediction" />
+	<form action="{{ url_for('home') }}">
+		<input type="submit" value="Get another prediction" style="font-size : 20px; width: 25%; height: 30px;"/>
 	</form>
 	
-
-
+</div>
 </body> 
 
 
