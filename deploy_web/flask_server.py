@@ -131,7 +131,6 @@ def home():
     return render_template('home.html',title=title)
  
     
-#@app.route('/test-link/')
 @app.route('/show-prediction/')
 def about():
     ''' get the scoring parameters entered in home.html, assemble them into a dataframe, run that dataframe through pipelines
