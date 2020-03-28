@@ -8,6 +8,7 @@ This repo is a rework of the original repo for the book at https://github.com/ry
 - notebooks tested on Python 3.6 and Python 3.7 in free and for-fee environments
 - config files used to remove hard-coded parameters
 - code largely refactored to make it easier to follow and simpler to run
+- incorporate TensorFlow 2.0 for model training and deployment
 
 ## Directory structure
 - **data** - processed datasets and pickle files for intermediate datasets
