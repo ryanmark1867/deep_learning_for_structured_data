@@ -8,8 +8,8 @@ general:
    maxwords: 6000
    textmax: 50
    pickled_data_file: '20142018_0930.pkl'
-   pickled_dataframe: '2014_2019_df_cleaned_remove_bad_oct18.pkl'
-   modifier: 'mar26b2020'
+   pickled_dataframe: '2014_2019_df_cleaned_remove_bad_mar26_2020.pkl'
+   modifier: 'mar272020'
    targetthresh: 6.0 # use as boundary between delay and no delay
    targetcontinuous: False # switch to determine whether target is continuous
    emptythresh: 6000
