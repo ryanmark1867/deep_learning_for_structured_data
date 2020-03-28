@@ -4,30 +4,30 @@ from flask import Flask, render_template, request
 from string import Template
 from OpenSSL import SSL
 import pickle
-from rasa.nlu.model import Interpreter
 import requests
 import json
 import pandas as pd
 import numpy as np
 import time
 #model libraries
-from keras.layers import Input, Dropout, Dense, BatchNormalization, Activation, concatenate, GRU, Embedding, Flatten, BatchNormalization
-from keras.models import Model
-from keras.callbacks import ModelCheckpoint, Callback, EarlyStopping
-from keras import regularizers
-from keras.layers.normalization import BatchNormalization
-from keras.regularizers import l2
-from keras.optimizers import Adam
-from keras.optimizers import SGD
-from keras import backend as K
-from keras.utils.vis_utils import plot_model
-from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
-from keras.models import load_model
+from tensorflow.keras.layers import Input, Dropout, Dense, BatchNormalization, Activation, concatenate, GRU, Embedding, Flatten, BatchNormalization
+from tensorflow.keras.models import Model
+from tensorflow.keras.callbacks import ModelCheckpoint, Callback, EarlyStopping
+from tensorflow.keras import regularizers
+from tensorflow.keras.layers import BatchNormalization
+from tensorflow.keras.regularizers import l2
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.optimizers import SGD
+from tensorflow.keras import backend as K
+from tensorflow.keras.utils import plot_model
+from tensorflow.keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import load_model
 from sklearn import metrics
 from sklearn.datasets.samples_generator import make_blobs
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
+from sklearn.preprocessing import label
 from pickle import load
 from custom_classes import encode_categorical
 from custom_classes import prep_for_keras_input
