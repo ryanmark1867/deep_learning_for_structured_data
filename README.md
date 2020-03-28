@@ -37,4 +37,3 @@ This repo is a rework of the original repo for the book at https://github.com/ry
 
 - **https://open.toronto.ca/dataset/ttc-streetcar-delay-data/** original dataset
 - **https://www.kaggle.com/knowledgegrappler/a-simple-nn-solution-with-keras-0-48611-pl** Kaggle submission that was used as input to creation of the Keras model used in this example
-d in this example
