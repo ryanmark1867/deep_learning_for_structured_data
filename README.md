@@ -2,7 +2,7 @@
 revised repo for Manning book **Deep Learning with Structured Data** https://www.manning.com/books/deep-learning-with-structured-data
 
 ## Note
-This repo is a rework of the original repo for the book at https://github.com/ryanmark1867/manning (which is being kept in place for the convenience of MEAP users who have already started to use it. Improvements in this new repo include:
+This repo is a rework of the original repo for the book at https://github.com/ryanmark1867/manning (which is being kept in place for the convenience of MEAP users who have already started to use it). Improvements in this new repo include:
 - rationalized file names
 - simplified directory structure
 - notebooks tested on Python 3.6 and Python 3.7 in free and for-fee environments
@@ -26,13 +26,13 @@ This repo is a rework of the original repo for the book at https://github.com/ry
 
 **train model** - steps to train a deep learning model on the cleaned up dataset from the previous step. Output is a trained model (h5 file) and two pickle files for the pipeline 
 1. update **notebooks/streetcar_model_training_config.yml** to specify input dataframe (pickled_dataframe). Set this to the filename of the dataframe output in the **prepare data** step
-2. run **streetcar_model_training.ipynb** in an env. with TensorFlow 2.0 installed
+2. run **notebooks/streetcar_model_training.ipynb** in an env. with TensorFlow 2.0 installed
 
-**deploy model** - steps to set up a simple web page for exercising the trained model. Uses the trained model and pipeline files from the previous step.
+**web deployment of model** - steps to set up a simple web page for exercising the trained model. Uses the trained model and pipeline files from the previous step.
 1. update **deploy_web/deploy_web_config.yml**: set  pipeline1_filename, pipeline2_filename and model_filename to the names of the pipeline files and trained model file generated in the training step. Alternately, you can run the training notebook using the config file as-is to use prepared pipeline and model files already included in the repo.
 2. start the Flask server **deploy_web/flask_server.py** by running: python flask_server.py
 3. open localhost:5000 in a browser, select the details for your trip, and click on **Get prediction**
-   
+
 ## Background
 
 - **https://open.toronto.ca/dataset/ttc-streetcar-delay-data/** original dataset
