@@ -1,0 +1,320 @@
+Report Date,Route,Time,Day,Location,Incident,Min Delay,Min Gap,Direction,Vehicle
+2014-01-02,505,6:31:00 AM,Thursday,Dundas and Roncesvalles,Late Leaving Garage,4,8,E/B,4018
+2014-01-02,504,12:43:00 PM,Thursday,King and Shaw,Utilized Off Route,20,22,E/B,4128
+2014-01-02,501,2:01:00 PM,Thursday,Kingston road and Bingham,Held By,13,19,W/B,4016
+2014-01-02,504,2:22:00 PM,Thursday,King St. and Roncesvalles Ave.,Investigation,7,11,W/B,4175
+2014-01-02,504,4:42:00 PM,Thursday,King and Bathurst,Utilized Off Route,3,6,E/B,4080
+2014-01-02,501,5:39:00 PM,Thursday,Queen and Beaconsfeild,Held By,7,13,W/B,4202
+2014-01-02,504,6:38:00 PM,Thursday,Roncesvalles and King Street West,Utilized Off Route,4,7,E/B,4100
+2014-01-02,510,7:27:00 PM,Thursday,Spadina and St. Andrews,Investigation,20,22,S/B,4123
+2014-01-03,504,1:00:00 AM,Friday,Broadview and Queen,Utilized Off Route,7,14,W/B,4079
+2014-01-03,512,5:09:00 AM,Friday,Bathurst and St. Clair,Mechanical,3,6,E/B,4160
+2014-01-03,501,5:19:00 AM,Friday,Queen and Roncesvalles,Mechanical,5,11,W/B,4037
+2014-01-03,511,5:22:00 AM,Friday,King at Bathurst,Mechanical,5,11,S/B,4168
+2014-01-03,501,5:25:00 AM,Friday,Queen and Roncesvalles,Mechanical,5,11,W/B,4036
+2014-01-03,501,5:29:00 AM,Friday,Roncesvalles and Queen,Mechanical,4,11,W/B,
+2014-01-03,512,5:33:00 AM,Friday,Bathurst at St. Clair,Mechanical,3,6,E/B,4082
+2014-01-03,512,5:39:00 AM,Friday,Bathurst at St Clair,Mechanical,3,6,E/B,4127
+2014-01-03,501,5:40:00 AM,Friday,Roncesvalles and Queen,Mechanical,1,7,W/B,
+2014-01-03,506,5:47:00 AM,Friday,Roncevalles and Howard Park,Mechanical,5,11,E/B,
+2014-01-03,512,5:47:00 AM,Friday,Bathurst and St Clair,Mechanical,3,6,E/B,4166
+2014-01-03,506,5:48:00 AM,Friday,Roncesvalles and Howard Park,Mechanical,5,11,E/B,
+2014-01-03,511,5:54:00 AM,Friday,King and Bathurst,Mechanical,6,11,N/B,
+2014-01-03,511,5:59:00 AM,Friday,King at Bathurst,Mechanical,5,11,N/B,
+2014-01-03,512,6:03:00 AM,Friday,Bathurst and St. Clair,Mechanical,3,5,E/B,
+2014-01-03,511,6:06:00 AM,Friday,King at Bathurst,Mechanical,5,11,N/B,4152
+2014-01-03,511,6:13:00 AM,Friday,King at Bathurst,Mechanical,5,11,N/B,4000
+2014-01-03,511,6:15:00 AM,Friday,King at Bathurst,Mechanical,5,11,N/B,4040
+2014-01-03,506,6:20:00 AM,Friday,Roncesvalles and Howard Park,Mechanical,5,11,E/B,4147
+2014-01-03,501,6:22:00 AM,Friday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-03,505,6:23:00 AM,Friday,Dundas West Station,Mechanical,6,12,E/B,
+2014-01-03,506,6:25:00 AM,Friday,Roncesvalles and Howard Park,Mechanical,5,11,E/B,4178
+2014-01-03,511,6:25:00 AM,Friday,King at Bathurst,Mechanical,5,11,N/B,4073
+2014-01-03,501,6:27:00 AM,Friday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-03,504,6:30:00 AM,Friday,Roncesvalles and Queen,Mechanical,4,8,W/B,
+2014-01-03,501,6:32:00 AM,Friday,Queen St. E. and Rainsford,Mechanical,6,12,W/B,4251
+2014-01-03,506,6:33:00 AM,Friday,Roncesvalles and Howard Park,Mechanical,6,11,E/B,4164
+2014-01-03,504,6:33:00 AM,Friday,Roncesvalles and Queen,Mechanical,4,12,W/B,
+2014-01-03,506,6:49:00 AM,Friday,Roncesvalles and Howard Park,Mechanical,6,11,E/B,
+2014-01-03,501,6:49:00 AM,Friday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-03,508,6:51:00 AM,Friday,Roncesvalles and Queen,Mechanical,13,0,W/B,
+2014-01-03,503,6:52:00 AM,Friday,Kingston Road and Beech,Mechanical,20,32,W/B,4137
+2014-01-03,502,6:52:00 AM,Friday,Kingston Road and Beech,Mechanical,20,32,W/B,4004
+2014-01-03,506,6:57:00 AM,Friday,Roncesvalles and Howard Park,Mechanical,4,8,E/B,
+2014-01-03,508,7:04:00 AM,Friday,Queen and Roncesvalles,Mechanical,12,36,W/B,
+2014-01-03,504,7:07:00 AM,Friday,Queen and roncesvalles,Mechanical,2,4,W/B,
+2014-01-03,504,7:09:00 AM,Friday,Roncesvalles and Howard Park,Mechanical,5,11,E/B,
+2014-01-03,504,7:11:00 AM,Friday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-03,504,7:15:00 AM,Friday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-03,508,7:16:00 AM,Friday,Queen and Roncesvalles,Mechanical,12,36,W/B,
+2014-01-03,501,7:18:00 AM,Friday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-03,504,7:19:00 AM,Friday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-03,501,7:28:00 AM,Friday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-03,504,7:31:00 AM,Friday,Queen and Roncesvalles,Mechanical,2,3,W/B,
+2014-01-03,501,7:39:00 AM,Friday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-03,504,7:47:00 AM,Friday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-03,501,7:49:00 AM,Friday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-03,504,7:51:00 AM,Friday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-03,504,7:55:00 AM,Friday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-03,501,8:00:00 AM,Friday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-03,501,8:00:00 AM,Friday,Neville Loop,Mechanical,6,11,E/B,4201
+2014-01-03,506,8:11:00 AM,Friday,College and McCaul,Mechanical,4,8,W/B,4026
+2014-01-03,512,8:12:00 AM,Friday,St. Clair West Stn,Mechanical,2,5,E/B,4080
+2014-01-03,511,8:15:00 AM,Friday,CNE Loop,Mechanical,8,12,N/B,4098
+2014-01-03,501,8:38:00 AM,Friday,Humber Loop,Mechanical,5,11,E/B,4202
+2014-01-03,502,8:56:00 AM,Friday,Queen and Connaught,Mechanical,12,24,W/B,4041
+2014-01-03,512,8:57:00 AM,Friday,St. Clair and Spadina,Mechanical,3,5,E/B,4188
+2014-01-03,506,12:14:00 PM,Friday,Gerard at Highfield,Investigation,0,0,W/B,4125
+2014-01-03,501,1:00:00 PM,Friday,Roncesvalles and Queen,Mechanical,3,6,W/B,
+2014-01-03,501,1:50:00 PM,Friday,Roncesvalles and Queen,Mechanical,3,6,W/B,
+2014-01-03,504,1:58:00 PM,Friday,Roncesvalles and Queen,Mechanical,2,6,W/B,
+2014-01-03,504,2:01:00 PM,Friday,Roncesvalles and Queen,Mechanical,2,4,W/B,
+2014-01-03,512,2:02:00 PM,Friday,Bathurst and St Clair,Mechanical,2,5,E/B,
+2014-01-03,504,2:13:00 PM,Friday,Roncesvalles and Queen,Mechanical,2,4,W/B,
+2014-01-03,512,2:16:00 PM,Friday,Roncesvalles and Queen,Mechanical,3,6,W/B,
+2014-01-03,512,2:17:00 PM,Friday,Bathurst and St Clair,Mechanical,2,5,E/B,
+2014-01-03,511,2:31:00 PM,Friday,Bathurst and King,Mechanical,4,8,N/B,
+2014-01-03,512,2:32:00 PM,Friday,Bathurst and St Clair,Mechanical,2,5,E/B,
+2014-01-03,505,2:33:00 PM,Friday,Roncesvalles and Queen,Mechanical,3,6,W/B,
+2014-01-03,501,2:39:00 PM,Friday,Roncesvalles and Queen,Mechanical,3,6,W/B,
+2014-01-03,504,2:43:00 PM,Friday,Roncesvalles and Queen,Mechanical,2,4,W/B,
+2014-01-03,512,2:46:00 PM,Friday,Bathurst and St Clair,Mechanical,2,5,E/B,
+2014-01-03,504,2:51:00 PM,Friday,Roncesvalles and Queen,Mechanical,2,4,W/B,
+2014-01-03,504,2:56:00 PM,Friday,Roncesvalles and Queen,Mechanical,3,5,W/B,
+2014-01-03,504,3:14:00 PM,Friday,Roncesvalles and Queen,Mechanical,3,5,W/B,
+2014-01-03,504,3:26:00 PM,Friday,Roncesvalles and Queen,Mechanical,2,4,W/B,
+2014-01-03,504,3:34:00 PM,Friday,Roncesvalles and Queen,Mechanical,2,3,W/B,
+2014-01-03,501,3:41:00 PM,Friday,Roncesvalles and Queen,Mechanical,3,6,W/B,
+2014-01-03,508,3:48:00 PM,Friday,Roncesvalles and Queen,Mechanical,15,0,E/B,
+2014-01-03,501,3:50:00 PM,Friday,Queen and Lockwood,Investigation,7,14,E/B,4118
+2014-01-03,508,4:03:00 PM,Friday,Roncesvalles and Queen,Mechanical,15,30,E/B,
+2014-01-03,508,4:18:00 PM,Friday,Roncesvalles and Queen,Mechanical,15,45,E/B,
+2014-01-03,508,4:33:00 PM,Friday,Roncesvalles and Queen,Mechanical,15,60,E/B,
+2014-01-03,508,4:48:00 PM,Friday,Roncesvalles and Queen,Mechanical,15,75,E/B,
+2014-01-03,508,5:03:00 PM,Friday,Roncesvalles and Queen,Mechanical,15,90,E/B,
+2014-01-03,505,6:00:00 PM,Friday,Broadview Station,Mechanical,6,12,W/B,4200
+2014-01-07,512,4:35:00 AM,Tuesday,St. Clair and Bathurst,Mechanical,10,0,E/B,4141
+2014-01-07,501,4:48:00 AM,Tuesday,Queen and Roncevalles,Mechanical,5,11,W/B,4216
+2014-01-07,511,4:55:00 AM,Tuesday,Bathurst and King,Held By,0,10,N/B,4136
+2014-01-07,504,4:56:00 AM,Tuesday,Queen and Roncesvlles,Mechanical,8,18,W/B,4147
+2014-01-07,502,5:09:00 AM,Tuesday,Queen and Connaught,Mechanical,12,0,E/B,4012
+2014-01-07,512,5:09:00 AM,Tuesday,Bathurst and St. Clair,Mechanical,7,14,E/B,4155
+2014-01-07,502,5:14:00 AM,Tuesday,Queen and Kingston Road,Mechanical,10,24,E/B,4078
+2014-01-07,505,5:18:00 AM,Tuesday,Dundas West Station,Mechanical,5,11,E/B,
+2014-01-07,501,5:25:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,5,11,W/B,4219
+2014-01-07,501,5:29:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,5,11,W/B,4229
+2014-01-07,501,5:31:00 AM,Tuesday,Queen and Connaught,Mechanical,5,11,W/B,4212
+2014-01-07,505,5:34:00 AM,Tuesday,Dundas West Station,Mechanical,5,11,W/B,4175
+2014-01-07,512,5:41:00 AM,Tuesday,St Clair and Bathurst,Mechanical,5,11,E/B,4198
+2014-01-07,512,5:43:00 AM,Tuesday,St. Clair and Bathurst,Mechanical,3,5,W/B,4180
+2014-01-07,504,5:43:00 AM,Tuesday,Roncesvalles and Queen,Mechanical,5,11,W/B,4064
+2014-01-07,501,5:47:00 AM,Tuesday,Long Branch Avenue,Mechanical,10,20,E/B,4215
+2014-01-07,506,5:47:00 AM,Tuesday,Roncesvalles and Howard Park,Mechanical,5,11,E/B,4170
+2014-01-07,506,5:48:00 AM,Tuesday,Howard Park and Roncesvalles,Mechanical,5,11,E/B,
+2014-01-07,512,5:49:00 AM,Tuesday,Bathurst and st. Clair,Mechanical,2,5,E/B,4089
+2014-01-07,501,5:50:00 AM,Tuesday,Lakeshore and 5th,Mechanical,10,40,W/B,4217
+2014-01-07,501,5:53:00 AM,Tuesday,Long Branch,Mechanical,10,30,E/B,4203
+2014-01-07,501,5:54:00 AM,Tuesday,Lakeshore and Parklawn,Mechanical,10,20,W/B,4232
+2014-01-07,511,5:54:00 AM,Tuesday,Bathurst and King,Mechanical,5,11,N/B,4062
+2014-01-07,501,5:57:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-07,505,5:59:00 AM,Tuesday,Dundas West Station,Mechanical,8,16,W/B,4067
+2014-01-07,512,6:02:00 AM,Tuesday,Bathurst and St. Clair,Mechanical,3,5,E/B,4021
+2014-01-07,512,6:03:00 AM,Tuesday,St. Clair and Bathurst,Mechanical,2,4,W/B,4095
+2014-01-07,512,6:05:00 AM,Tuesday,St. Clair and Bathurst,Mechanical,3,5,E/B,4193
+2014-01-07,511,6:06:00 AM,Tuesday,Bathurst and King,Mechanical,5,11,N/B,4191
+2014-01-07,511,6:07:00 AM,Tuesday,Bathurst and King,Mechanical,5,11,N/B,4094
+2014-01-07,506,6:19:00 AM,Tuesday,Roncesvalles and Howard Park,Mechanical,5,11,E/B,4160
+2014-01-07,501,6:22:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,5,11,W/B,4149
+2014-01-07,511,6:23:00 AM,Tuesday,Bathurst and King,Mechanical,5,11,N/B,
+2014-01-07,511,6:25:00 AM,Tuesday,Bathurst and King,Mechanical,5,11,S/B,
+2014-01-07,509,6:26:00 AM,Tuesday,Wilson Yard,Mechanical,3,6,S/B,9446
+2014-01-07,501,6:27:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-07,506,6:31:00 AM,Tuesday,Roncesvalles and Howard Park,Mechanical,5,11,E/B,
+2014-01-07,501,6:32:00 AM,Tuesday,Queen and Lockwood,Mechanical,6,11,W/B,5208
+2014-01-07,506,6:34:00 AM,Tuesday,Roncesvalles and Howard Park,Mechanical,5,11,E/B,
+2014-01-07,504,6:39:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,4,8,W/B,
+2014-01-07,506,6:41:00 AM,Tuesday,Roncesvalles and Howard Park,Mechanical,5,11,E/B,
+2014-01-07,501,6:47:00 AM,Tuesday,Queen and Carlaw,Mechanical,5,11,E/B,4227
+2014-01-07,506,6:48:00 AM,Tuesday,Howard Park and Roncesvalles,Mechanical,4,8,E/B,
+2014-01-07,511,6:48:00 AM,Tuesday,Bathurst and Fleet,Mechanical,4,8,N/B,4062
+2014-01-07,512,6:49:00 AM,Tuesday,St. Clair Station,Mechanical,3,5,E/B,4141
+2014-01-07,508,6:51:00 AM,Tuesday,Route,General Delay,20,,B/W,
+2014-01-07,506,6:55:00 AM,Tuesday,Howard Park and Roncesvalles,Mechanical,5,10,E/B,
+2014-01-07,504,7:07:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-07,504,7:11:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-07,502,7:15:00 AM,Tuesday,Queen and Connaught,Utilized Off Route,10,20,E/B,4121
+2014-01-07,504,7:15:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-07,501,7:18:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-07,504,7:19:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-07,504,7:23:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-07,501,7:24:00 AM,Tuesday,Queen at Shaw,Held By,22,27,W/B,4218
+2014-01-07,512,7:35:00 AM,Tuesday,St. Clair Station,Utilized Off Route,2,5,E/B,4191
+2014-01-07,501,7:39:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-07,504,7:39:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-07,501,7:45:00 AM,Tuesday,Lakeshore and Long Branch,Mechanical,10,20,E/B,4213
+2014-01-07,504,7:47:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-07,501,7:49:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-07,504,7:51:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-07,504,8:37:00 AM,Tuesday,Roncesvalles and Queen,Mechanical,5,10,W/B,4064
+2014-01-07,504,8:40:00 AM,Tuesday,Queen and Roncesvalles,Mechanical,5,10,W/B,4147
+2014-01-07,511,9:10:00 AM,Tuesday,CNE Loop,Mechanical,4,8,N/B,4165
+2014-01-07,501,10:16:00 AM,Tuesday,Queen and Connaught,Mechanical,5,10,E/B,4125
+2014-01-07,502,10:45:00 AM,Tuesday,Queen and Connaught,Mechanical,16,32,W/B,5041
+2014-01-07,501,11:42:00 AM,Tuesday,Lakeshore and Superior,Mechanical,10,20,W/B,4211
+2014-01-07,501,1:00:00 PM,Tuesday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-07,512,1:45:00 PM,Tuesday,Bathurst and St Clair,Mechanical,4,8,E/B,
+2014-01-07,501,1:50:00 PM,Tuesday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-07,504,1:58:00 PM,Tuesday,Roncesvalles and Queen,Mechanical,4,8,W/B,
+2014-01-07,512,2:00:00 PM,Tuesday,Bathurst and King,Mechanical,3,5,E/B,
+2014-01-07,504,2:01:00 PM,Tuesday,Roncesvalles and Queen,Mechanical,4,8,W/B,
+2014-01-07,512,2:06:00 PM,Tuesday,Bathurst and St Clair,Mechanical,4,7,E/B,
+2014-01-07,506,2:09:00 PM,Tuesday,Howard Park and Roncesvalles,Mechanical,5,10,E/B,
+2014-01-07,504,2:13:00 PM,Tuesday,Roncesvalles and Queen,Mechanical,4,8,W/B,
+2014-01-07,512,2:16:00 PM,Tuesday,Bathurst and St. Clair,Mechanical,4,7,E/B,
+2014-01-07,512,2:26:00 PM,Tuesday,Bathursty and St Clair,Mechanical,4,7,E/B,
+2014-01-07,511,2:31:00 PM,Tuesday,Bathurst and King,Mechanical,4,8,N/B,
+2014-01-07,512,2:36:00 PM,Tuesday,Bathurst and St Clair,Mechanical,4,7,E/B,
+2014-01-07,501,2:39:00 PM,Tuesday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-07,505,2:42:00 PM,Tuesday,Dundas West Station,Mechanical,4,8,E/B,
+2014-01-07,504,2:46:00 PM,Tuesday,Roncesvalles and Queen,Mechanical,4,8,W/B,
+2014-01-07,512,2:46:00 PM,Tuesday,Bathurst and St Clair,Mechanical,4,8,E/B,
+2014-01-07,504,2:51:00 PM,Tuesday,Roncesvalles and Queen,Mechanical,4,8,W/B,
+2014-01-07,504,2:56:00 PM,Tuesday,Roncesvalles and Queen,Mechanical,4,8,W/B,
+2014-01-07,504,3:14:00 PM,Tuesday,Roncesvalles and Queen,Mechanical,4,8,W/B,
+2014-01-07,504,3:26:00 PM,Tuesday,Roncesvalles and Queen,Mechanical,4,8,W/B,
+2014-01-07,504,3:34:00 PM,Tuesday,Roncesvalles and Queen,Mechanical,4,8,W/B,
+2014-01-07,505,3:36:00 PM,Tuesday,Dundas West Station,Mechanical,4,8,E/B,
+2014-01-07,501,3:41:00 PM,Tuesday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-07,508,3:48:00 PM,Tuesday,Roncevalles and Queen,Mechanical,0,15,E/B,
+2014-01-07,508,4:03:00 PM,Tuesday,Roncesvalles and Queen,Mechanical,15,30,E/B,
+2014-01-07,508,4:18:00 PM,Tuesday,Roncesvalles and Queen,Mechanical,15,60,E/B,
+2014-01-07,508,4:33:00 PM,Tuesday,Queen and Roncesvalles,Mechanical,15,75,E/B,
+2014-01-07,508,4:48:00 PM,Tuesday,Queen and Roncesvalles,Mechanical,15,90,E/B,
+2014-01-07,508,5:03:00 PM,Tuesday,Queen and Roncesvalles,Mechanical,15,105,E/B,
+2014-01-08,511,4:55:00 AM,Wednesday,Bathurst and King,Mechanical,5,10,N/B,4163
+2014-01-08,511,5:04:00 AM,Wednesday,Bathurst and King,Mechanical,5,11,N/B,4055
+2014-01-08,512,5:09:00 AM,Wednesday,Bathurst and St Clair,Mechanical,3,5,E/B,4047
+2014-01-08,512,5:17:00 AM,Wednesday,Bathurst and St Clair,Mechanical,3,5,E/B,4189
+2014-01-08,505,5:18:00 AM,Wednesday,Dundas West Station,Mechanical,5,10,E/B,4138
+2014-01-08,512,5:27:00 AM,Wednesday,Bathurst and St Clair,Mechanical,3,5,E/B,4175
+2014-01-08,512,5:30:00 AM,Wednesday,Bathrust and St Clair,Mechanical,3,5,E/B,4181
+2014-01-08,512,5:33:00 AM,Wednesday,Bathurst and St Clair,Mechanical,3,5,E/B,4196
+2014-01-08,505,5:34:00 AM,Wednesday,Dundas West Station,Mechanical,5,10,E/B,4181
+2014-01-08,512,5:46:00 AM,Wednesday,Bathurst and St Clair,Mechanical,3,5,E/B,4195
+2014-01-08,506,5:48:00 AM,Wednesday,Howard Park and Roncesvalles,Mechanical,5,11,E/B,4085
+2014-01-08,511,5:51:00 AM,Wednesday,Bathurst and King,Mechanical,5,11,N/B,4185
+2014-01-08,512,5:51:00 AM,Wednesday,Bathurst and St Clair,Mechanical,3,5,E/B,4108
+2014-01-08,506,5:54:00 AM,Wednesday,Howard Park and Roncesvalles,Mechanical,5,11,E/B,4186
+2014-01-08,512,5:59:00 AM,Wednesday,Bathurst and St Clair,Mechanical,3,5,E/B,
+2014-01-08,505,5:59:00 AM,Wednesday,Dundas West Station,Mechanical,5,11,E/B,4058
+2014-01-08,512,6:07:00 AM,Wednesday,Bathurst and St. Clair,Mechanical,3,5,E/B,
+2014-01-08,506,6:19:00 AM,Wednesday,Howard Park and Roncesvalles,Mechanical,5,11,E/B,4095
+2014-01-08,506,6:23:00 AM,Wednesday,Howard Park and Roncesvalles,Mechanical,5,11,E/B,4199
+2014-01-08,504,6:30:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,4,8,W/B,4099
+2014-01-08,506,6:31:00 AM,Wednesday,Howard Park and Roncesvalles,Mechanical,5,11,E/B,4028
+2014-01-08,505,6:36:00 AM,Wednesday,Dundas West Station,Mechanical,5,10,E/B,
+2014-01-08,504,6:45:00 AM,Wednesday,Roncesvalles and Queen,Mechanical,4,8,W/B,
+2014-01-08,506,6:48:00 AM,Wednesday,Roncesvalles and Howard Park,Mechanical,3,6,E/B,
+2014-01-08,506,6:55:00 AM,Wednesday,Roncesvalles and Howard Park,Mechanical,3,6,E/B,
+2014-01-08,508,7:04:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,12,24,W/B,
+2014-01-08,506,7:06:00 AM,Wednesday,Roncesvalles and Howard Park,Mechanical,3,6,E/B,
+2014-01-08,504,7:07:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-08,504,7:11:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-08,504,7:15:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-08,508,7:16:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,12,24,W/B,
+2014-01-08,506,7:18:00 AM,Wednesday,Howard Park and Roncesvalles,Mechanical,4,8,E/B,
+2014-01-08,501,7:18:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-08,504,7:19:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-08,504,7:23:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-08,501,7:28:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-08,504,7:31:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-08,501,7:39:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-08,504,7:39:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-08,504,7:47:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-08,501,7:49:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-08,504,7:51:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-08,504,7:55:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,2,4,W/B,
+2014-01-08,501,8:00:00 AM,Wednesday,Queen and Roncesvalles,Mechanical,5,11,W/B,
+2014-01-08,501,8:12:00 AM,Wednesday,Queen and Broadview,Held By,93,98,E/B,4219
+2014-01-08,504,8:28:00 AM,Wednesday,Queen and Broadview,Held By,77,81,E/B,4168
+2014-01-08,505,9:40:00 AM,Wednesday,Dundas and Sackville,Investigation,17,23,W/B,4021
+2014-01-08,501,12:23:00 PM,Wednesday,Lakeshore and Mimico,Emergency Services,7,19,W/B,4104
+2014-01-08,512,1:45:00 PM,Wednesday,St Clair and Bathurst,Mechanical,3,5,E/B,
+2014-01-08,505,1:50:00 PM,Wednesday,Dundas West Station,Mechanical,4,8,E/B,
+2014-01-08,504,2:01:00 PM,Wednesday,Roncesvalles and Queen,Mechanical,4,8,W/B,
+2014-01-08,512,2:06:00 PM,Wednesday,Bathurst and St. Clair,Mechanical,3,5,E/B,
+2014-01-08,506,2:09:00 PM,Wednesday,Roncesvalles and Howard Park,Mechanical,4,8,E/B,4070
+2014-01-08,504,2:13:00 PM,Wednesday,Roncesvalles and Queen,Mechanical,4,8,W/B,
+2014-01-08,512,2:16:00 PM,Wednesday,St Clair and Bathurst,Mechanical,3,5,E/B,4149
+2014-01-08,512,2:26:00 PM,Wednesday,St Clair and Bathurst,Mechanical,3,5,E/B,
+2014-01-08,511,2:31:00 PM,Wednesday,Bathurst and King,Mechanical,4,8,S/B,4226
+2014-01-08,512,2:36:00 PM,Wednesday,St Clair and Bathurst,Mechanical,3,5,E/B,
+2014-01-08,501,2:39:00 PM,Wednesday,Queen and Roncesvalles,Mechanical,5,10,W/B,4133
+2014-01-08,505,2:42:00 PM,Wednesday,Dundas West Station,Mechanical,4,8,E/B,
+2014-01-08,504,2:43:00 PM,Wednesday,Roncesvalles and Queen,Mechanical,4,8,W/B,
+2014-01-08,512,2:46:00 PM,Wednesday,St Clair and Bathurst,Mechanical,3,5,E/B,
+2014-01-08,504,2:56:00 PM,Wednesday,Queen and Roncesvalles,Mechanical,4,8,W/B,4174
+2014-01-08,504,3:14:00 PM,Wednesday,Queen and Roncesvalles,Mechanical,4,8,W/B,
+2014-01-08,504,3:26:00 PM,Wednesday,Queen and Roncesvalles,Mechanical,3,5,W/B,4233
+2014-01-08,504,3:34:00 PM,Wednesday,Roncesvalles and Queen,Mechanical,4,8,W/B,
+2014-01-08,505,3:36:00 PM,Wednesday,Dundas West Station,Mechanical,4,8,E/B,
+2014-01-08,501,3:41:00 PM,Wednesday,Queen and Roncesvalles,Mechanical,5,10,W/B,
+2014-01-08,508,3:48:00 PM,Wednesday,Queen and Roncesvalles,Mechanical,0,15,E/B,
+2014-01-08,508,4:03:00 PM,Wednesday,Queen and Roncesvalles,Mechanical,15,30,E/B,
+2014-01-08,508,4:18:00 PM,Wednesday,Queen and Roncesvalles,Mechanical,15,45,E/B,
+2014-01-08,508,4:33:00 PM,Wednesday,Queen and Roncesvalles,Mechanical,15,60,E/B,
+2014-01-08,508,4:48:00 PM,Wednesday,Queen and Roncesvalles,Mechanical,15,75,E/B,
+2014-01-08,508,5:03:00 PM,Wednesday,Queen and Roncevalles,Mechanical,15,90,E/B,
+2014-01-08,506,6:05:00 PM,Wednesday,Gerrard and Broadview,Held By,4,8,W/B,4131
+2014-01-15,512,6:12:00 AM,Wednesday,Roncesvalles and Queen,Held By,4,8,EB,4065
+2014-01-15,512,6:12:00 AM,Wednesday,Roncesvalles and Queen,Held By,4,8,E/B,4065
+2014-01-15,501,6:15:00 AM,Wednesday,Queen and Roncesvalles,Held By,10,20,W/B,4248
+2014-01-15,501,6:15:00 AM,Wednesday,Queen and Roncesvalles,Held By,10,20,WB,4248
+2014-01-15,501,8:15:00 AM,Wednesday,Queen and Jameson.,Diversion,22,28,E/B,4251
+2014-01-15,505,8:30:00 AM,Wednesday,Bathurst and Dundas,General Delay,9,15,B/W,
+2014-01-15,506,10:46:00 AM,Wednesday,College and Euclid,Emergency Services,13,18,W/B,4163
+2014-01-15,504,1:00:00 PM,Wednesday,Dundas West Station to Broadview Station.,General Delay,20,15,BW,
+2014-01-15,501,2:14:00 PM,Wednesday,Lakeshore and Legion,Held By,20,32,E/B,4246
+2014-01-15,505,2:19:00 PM,Wednesday,Dundas and Broadview,Late Leaving Garage,4,7,E/B,4012
+2014-01-15,506,7:35:00 PM,Wednesday,Gerrard and Woodbine,Held By,23,30,W/B,4163
+2014-01-15,511,8:29:00 PM,Wednesday,Bathurst and Queen,Investigation,7,12,N/B,4152
+2014-01-16,506,8:56:00 AM,Thursday,College and Brock,Investigation,20,24,E/B,4094
+2014-01-16,506,9:00:00 AM,Thursday,Main and Danforthy,Held By,7,11,E/B,4157
+2014-01-16,505,10:45:00 AM,Thursday,Broadview and Dundas,Investigation,10,16,W/B,4036
+2014-01-16,504,10:52:00 AM,Thursday,Roncesvalles and Marion,Investigation,13,16,N/B,4196
+2014-01-16,512,10:53:00 AM,Thursday,St. Clair and Oakwood,Investigation,10,15,W/B,4185
+2014-01-16,501,2:34:00 PM,Thursday,Lakeshore and Parklawn,Utilized Off Route,12,24,E/B,4093
+2014-01-16,501,3:00:00 PM,Thursday,Queensway and Sunnyside,Utilized Off Route,6,12,W/B,4232
+2014-01-16,512,4:36:00 PM,Thursday,St. Clair W and Gunns,Held By,42,46,W/B,4158
+2014-01-16,512,5:24:00 PM,Thursday,St. Clair W and Old Weston Rd.,Investigation,0,0,W/B,4118
+2014-01-16,501,9:56:00 PM,Thursday,Spadina and Queen,Emergency Services,5,10,E/B,4203
+2014-01-16,505,10:07:00 PM,Thursday,Broadview and Dundas,Held By,8,17,E/B,4080
+2014-01-17,511,6:12:00 AM,Friday,Bathurst and King,Held By,6,11,S/B,4088
+2014-01-17,506,11:32:00 AM,Friday,Main Stn.,Investigation,74,79,W/B,4062
+2014-01-17,506,12:54:00 PM,Friday,College and Beverley,Utilized Off Route,16,21,E/B,4163
+2014-01-17,505,2:34:00 PM,Friday,College and Sheridan,Investigation,33,39,W/B,4187
+2014-01-17,512,3:36:00 PM,Friday,St. Clair W and Bathurst,Held By,8,11,E/B,4141
+2014-01-17,504,9:00:00 PM,Friday,Dundas West Stn to Broadview Stn,General Delay,25,18,BW,
+2014-01-18,506,12:54:00 AM,Saturday,College and Brock,Investigation,25,35,W/B,4173
+2014-01-18,504,5:38:00 AM,Saturday,King and Bay,Held By,28,0,W/B,4090
+2014-01-18,511,6:25:00 AM,Saturday,Bathurst and Carr,Investigation,27,35,B/W,4002
+2014-01-18,511,6:59:00 AM,Saturday,Bathurst and Bloor,Investigation,66,73,S/B,4191
+2014-01-18,511,9:48:00 AM,Saturday,Fleet and Fork York,Investigation,33,38,E/B,4002
+2014-01-18,511,12:38:00 PM,Saturday,CNE Loop,Investigation,14,19,N/B,4062
+2014-01-18,301,1:55:00 PM,Saturday,Bathurst and Queen,Investigation,9,18,E/B,4061
+2014-01-18,506,2:04:00 PM,Saturday,College and Lansdowne,Held By,8,13,E/B,4039
+2014-01-18,504,5:00:00 PM,Saturday,Broadview Stn to Dundas West Stn,General Delay,35,15,BW,
+2014-01-19,504,8:33:00 AM,Sunday,King and Queen,Held By,40,50,E/B,4089
+2014-01-19,511,8:36:00 AM,Sunday,Bathurst and King,Held By,9,17,N/B,4118
+2014-01-19,501,8:49:00 AM,Sunday,Queen and Carlaw,Held By,20,30,W/B,4215
+2014-01-19,501,12:53:00 PM,Sunday,Queen and Bay,Investigation,8,16,W/B,7533
+2014-01-19,504,6:00:00 PM,Sunday,Dundas West Station to Church St.,General Delay,0,0,bw,
+2014-01-19,509,7:14:00 PM,Sunday,CNE Loop,Utilized Off Route,4,8,E/B,8181
+2014-01-19,511,7:17:00 PM,Sunday,Bathurst and Front,Investigation,33,40,S/B,4179
+2014-01-19,509,8:04:00 PM,Sunday,Harbord and Bay,Investigation,4,8,E/B,7483
+2014-01-19,506,8:24:00 PM,Sunday,Lansdowne and College,Investigation,8,16,W/B,4109
+2014-01-19,501,9:32:00 PM,Sunday,Wolseley Loop,Investigation,8,16,N/B,7346
+2014-01-19,510,9:46:00 PM,Sunday,Bremner and Navy Wharf,Investigation,6,12,E/B,7875
+2014-01-21,510,2:27:00 AM,Tuesday,Spadina and Harbord,Investigation,20,0,N/B,4040
+2014-01-29,510,6:42:00 PM,Wednesday,Spadina Stn to King St,Utilized Off Route,12,14,s,4033
+2014-01-31,504,1:00:00 PM,Friday,King Route,General Delay,20,15,B/W,
