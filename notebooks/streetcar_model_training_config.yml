@@ -8,8 +8,9 @@ general:
    maxwords: 6000
    textmax: 50
    pickled_data_file: '20142018_0930.pkl'
-   pickled_dataframe: '2014_2019_df_cleaned_remove_bad_mar26_2020.pkl'
-   modifier: 'apr2d2020'
+   pickled_dataframe: '2014_2019_df_cleaned_remove_bad_values_apr5_2020.pkl'
+   route_direction_file: 'routedirection.csv'
+   modifier: 'apr6_2020'
    targetthresh: 6.0 # use as boundary between delay and no delay
    targetcontinuous: False # switch to determine whether target is continuous
    emptythresh: 6000
