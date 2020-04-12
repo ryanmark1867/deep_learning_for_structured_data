@@ -23,10 +23,6 @@ model = tf.keras.models.Sequential([
   tf.keras.layers.Dense(10) 
 ])
 
-# define loss function
-
-# loss_fn = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True)
-
 # compile model, including specifying the loss function, optimizer, and metrics
 
 model.compile(optimizer='adam',
