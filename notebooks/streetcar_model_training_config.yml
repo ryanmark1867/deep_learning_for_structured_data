@@ -4,13 +4,15 @@ general:
    presaved: False # switch to determine whether to train model or load saved model
    savemodel: False # switch to determine whether to save model
    picklemodel: True # switch for code to allow pickling of Keras model
+   save_model_plot: False
+   tensorboard_callback: True
    hctextmax: 7000
    maxwords: 6000
    textmax: 50
    pickled_data_file: '20142018_0930.pkl'
    pickled_dataframe: '2014_2019_df_cleaned_remove_bad_values_apr5_2020.pkl'
    route_direction_file: 'routedirection.csv'
-   modifier: 'apr11c_2020'
+   modifier: 'apr15_2020'
    targetthresh: 6.0 # use as boundary between delay and no delay
    targetcontinuous: False # switch to determine whether target is continuous
    emptythresh: 6000
@@ -27,7 +29,7 @@ general:
 test_parms:
    testproportion: 0.2 # proportion of data reserved for test set
    trainproportion: 0.8 # proportion of non-test data dedicated to training (vs. validation)
-   current_experiment: 1
+   current_experiment: 2
 hyperparameters:
    learning_rate: 0.001
    dropout_rate: 0.0003 #0.003
