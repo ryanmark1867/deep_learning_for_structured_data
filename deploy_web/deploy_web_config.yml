@@ -3,7 +3,7 @@ general:
    logging_level: "WARNING" # switch to control logging - WARNING for full logging; ERROR to minimize logging
    BATCH_SIZE: 1000
 file_names:
-   pipeline1_filename: sc_delay_piplelineapr52020.pkl
-   pipeline2_filename: sc_delay_pipleline_keras_prepapr52020.pkl
-   model_filename: scmodelapr52020_5.h5
+   pipeline1_filename: sc_delay_piplelineapr26_2020.pkl
+   pipeline2_filename: sc_delay_pipleline_keras_prepapr26_2020.pkl
+   model_filename: scmodelapr26_2020_5.h5
    
