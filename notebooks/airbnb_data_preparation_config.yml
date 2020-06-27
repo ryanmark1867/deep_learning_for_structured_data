@@ -1,0 +1,33 @@
+general:
+   load_from_scratch: True
+   save_transformed_dataframe: True
+   remove_bad_values: True
+   continuous_default: 0.0
+   time_default: 2019-01-01
+   categorical_default: missing
+   text_default: missing
+categorical:
+      - 'neighbourhood_group'
+      - 'neighbourhood'
+      - 'room_type'
+continuous: 
+      - 'minimum_nights'
+      - 'number_of_reviews'
+      - 'reviews_per_month'
+      - 'calculated_host_listings_count'
+text:
+      - 'name'
+      - 'host_name'
+excluded:
+      - 'price'
+      - 'id'
+      - 'latitude'
+      - 'longitude'
+      - 'name'
+      - 'host_name'
+      - 'last_review'   
+file_names:
+   input_csv: AB_NYC_2019.csv
+   pickled_input_dataframe: AB_NYC_2019_df.pkl
+   pickled_output_dataframe: AB_NYC_2019_remove_bad_values_jun21_2020.pkl
+   
